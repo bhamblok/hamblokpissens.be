@@ -1,4 +1,6 @@
 .site-header {
+  position: absolute;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding-top: 1em;
