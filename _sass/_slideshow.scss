@@ -1,8 +1,9 @@
 @keyframes slideshowEffect {
-  0%  { background-color: #444; transform: scale(1, 1);  }
-  40% { background-color: #eee; }
-  60% { background-color: white; }
-  100% { background-color: #444; transform: scale(1.05, 1.05); }
+  0%  { background-color: #000; transform: scale(1, 1);  }
+  10%  { background-color: #444; }
+  40% { background-color: #666; }
+  70% { background-color: #eee; }
+  100% { background-color: #000; transform: scale(1.05, 1.05); }
 }
 
 .slideshow {
@@ -23,8 +24,8 @@
     background-position:center;
     background-repeat: no-repeat;
     position: absolute;
-    transition: opacity 1s linear;
-    animation-direction: alternate;
+    // transition: opacity 0.1s linear;
+    // animation-direction: alternate;
     opacity: 0;
     top: 0;
     left: 0;
@@ -38,7 +39,7 @@
     font-size: 0.5em;
     label {
       display: inline-block;
-      width: 1.2em;
+      width: 1em;
       height: 1em;
       --slideshow-color: white;
       --slideshow-color-active: white;
@@ -47,8 +48,8 @@
       &::after {
         content: ' ';
         position: absolute;
-        width: 1em;
-        height: 1em;
+        width: 0.6em;
+        height: 0.6em;
         background-color: var(--slideshow-color-bg, transparent);
         border: 1px solid var(--slideshow-color, white);
         border-radius: 50%;

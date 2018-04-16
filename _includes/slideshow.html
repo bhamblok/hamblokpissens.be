@@ -1,6 +1,6 @@
 <div class="slideshow">
   {% assign image_files = site.static_files | where_exp: "item", "item.path contains '/slideshow/'" | reverse %}
-  {% assign transition = 6000 %}
+  {% assign transition = 8000 %}
   <style>
     .slideshow-item { animation: slideshowEffect {{ transition }}ms linear infinite; }
 
