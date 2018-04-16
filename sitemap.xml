@@ -1,0 +1,15 @@
+---
+layout:
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">{% for page in site.pages %}{% if page.id contains "404" %}{% else %}
+  <url>
+    <loc>{{site.base}}{{ page.url }}</loc>{% assign versions=site.pages | where:"ref", page.ref %}{% for version in versions %}{% unless version.url == page.url %}{% assign lang = version.url | split: '/' %}{% if lang[1] %}{% assign lang = lang[1] %}{% else %}{% assign lang = 'nl' %}{% endif %}
+    <xhtml:link rel="alternate" hreflang="{{ lang }}" href="{{site.base}}{{ version.url }}" />{% endunless %}{% endfor %}
+    <changefreq>weekly</changefreq>
+  </url>{% endif %}{% endfor %}
+</urlset>

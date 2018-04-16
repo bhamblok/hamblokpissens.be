@@ -1,0 +1,23 @@
+h1.logo {
+  font-size: 2.8vw;
+  @include media-query($on-laptop) {
+    font-size: 4.8vw;
+  }
+  width: 100%;
+  text-align: center;
+  top: 2em;
+  z-index: 99999;
+  a {
+    font-weight: 500;
+    letter-spacing: 0.5em;
+    text-decoration: none;
+    color: black;
+    sub {
+      vertical-align: 0;
+      letter-spacing: 1.48em;
+      font-size: 0.6em;
+      font-weight: 300;
+      margin-left: 1em;
+    }
+  }
+}

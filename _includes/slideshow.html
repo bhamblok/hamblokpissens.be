@@ -1,0 +1,44 @@
+<div class="slideshow">
+  {% assign image_files = site.static_files | where_exp: "item", "item.path contains '/slideshow/'" | reverse %}
+  {% assign transition = 6000 %}
+  <style>
+    .slideshow-item { animation: slideshowEffect {{ transition }}ms linear infinite; }
+
+  {% assign i = 0 %}
+  {% for image in image_files %}
+    #slideshow-button-{{ i }}:checked ~ .slideshow-item.item-{{ i }} { opacity: 1; }
+    #slideshow-button-{{ i }}:checked ~ .nav-slideshow .slideshow-label.item-{{ i }} { --slideshow-color-bg: var(--slideshow-color-active, white); }
+    {% assign i = i | plus: 1 %}
+  {% endfor %}
+
+  </style>
+
+  {% assign i = 0 %}
+  {% for image in image_files %}
+    <input type="radio" name="slideshow" id="slideshow-button-{{ i }}" value="{{ i }}"{% if i == 0 %} checked="checked"{% endif %} />
+    {% assign i = i | plus: 1 %}
+  {% endfor %}
+
+  {% assign i = 0 %}
+  {% for image in image_files %}
+    <div class="slideshow-item item-{{ i }}" style="background-image: url({{ image.path }});"></div>
+    {% assign i = i | plus: 1 %}
+  {% endfor %}
+
+  <nav class="nav-slideshow">
+
+  {% assign i = 0 %}
+  {% for image in image_files %}
+    <label class="slideshow-label item-{{ i }}" for="slideshow-button-{{ i }}"></label>
+    {% assign i = i | plus: 1 %}
+  {% endfor %}
+
+  </nav>
+  <script type="application/javascript">
+    function next() {
+      (document.querySelector('.slideshow input[type="radio"]:checked + input[type="radio"]') ||
+        document.querySelector('.slideshow input[type="radio"]')).checked = true;
+    }
+    setInterval(next, {{ transition }});
+  </script>
+</div>
