@@ -1,12 +1,16 @@
 <div class="slideshow">
   {% assign image_files = site.static_files | where_exp: "item", "item.path contains '/slideshow/'" %}
-  {% assign transition = 8000 %}
   <style>
-    .slideshow-item { animation: slideshowEffect {{ transition }}ms linear infinite; }
-
+  
   {% assign i = 0 %}
   {% for image in image_files %}
-    #slideshow-button-{{ i }}:checked ~ .slideshow-item.item-{{ i }} { opacity: 1; }
+    #slideshow-button-{{ i }}:checked ~ .slideshow-item-wrapper.item-{{ i }} {
+      opacity: 1;
+    }
+    #slideshow-button-{{ i }}:checked ~ .slideshow-item-wrapper.item-{{ i }} .slideshow-item-color {
+      opacity: 0;
+      animation-name: slideshowEffect;
+    }
     #slideshow-button-{{ i }}:checked ~ .nav-slideshow .slideshow-label.item-{{ i }} { --slideshow-color-bg: var(--slideshow-color-active, white); }
     {% assign i = i | plus: 1 %}
   {% endfor %}
@@ -21,7 +25,10 @@
 
   {% assign i = 0 %}
   {% for image in image_files %}
-    <div class="slideshow-item item-{{ i }}" style="background-image: url({{ image.path }});"></div>
+    <div class="slideshow-item-wrapper item-{{ i }}">
+      <div class="slideshow-item" style="background-image: url({{ image.path }});"></div>
+      <div class="slideshow-item slideshow-item-color" style="background-image: url({{ image.path }});"></div>
+    </div>
     {% assign i = i | plus: 1 %}
   {% endfor %}
 
@@ -35,10 +42,13 @@
 
   </nav>
   <script type="application/javascript">
-    function next() {
+    function next(e) {
       (document.querySelector('.slideshow input[type="radio"]:checked + input[type="radio"]') ||
         document.querySelector('.slideshow input[type="radio"]')).checked = true;
     }
-    setInterval(next, {{ transition }});
+    var items = document.querySelectorAll('.slideshow-item-color');
+    Array.prototype.forEach.call(items, function(element) {
+      element.addEventListener('animationend', next);
+    });
   </script>
 </div>
