@@ -7,4 +7,4 @@ categories:
 - utilité
 - intérieur & design
 ---
-Blabla
+# PROJECT B (FR)
