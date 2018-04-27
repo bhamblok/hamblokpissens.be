@@ -18,9 +18,27 @@ body {
   font-kerning: normal;
 }
 
-/**
-* Icons
-*/
+.page-link {
+  color: $grey-color-light;
+  line-height: $base-line-height;
+  padding: 3px 7px;
+  margin: 0;
+  border: 1px solid transparent;
+  box-sizing: content-box;
+  position: relative;
+  &:hover {
+    background-color: rgba($grey-color-light, 0.1);
+    border-color: lighten($grey-color, 40%);
+    text-decoration: none;
+  }
+}
+
+.page-link:active, .page-link.active, .page-link:active, .page-link:target, .en:lang(en), .fr:lang(fr), .nl:lang(nl) {
+  color: darken($brand-color, 15%);
+  border-color: $grey-color;
+  outline: none;
+}
+
 .icon {
   > svg {
     display: inline-block;

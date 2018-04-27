@@ -1,5 +1,5 @@
 h1.logo {
-  font-size: 2.8vw;
+  font-size: 3.1vw;
   width: 100%;
   text-align: center;
   top: 2em;
@@ -9,24 +9,27 @@ h1.logo {
     letter-spacing: 0.5em;
     text-decoration: none;
     color: black;
+    margin-right: -0.5em;
     sub {
       vertical-align: 0;
       letter-spacing: 1.48em;
       font-size: 0.6em;
       font-weight: 300;
-      margin-left: 1em;
+      margin-left: 1.4em;
+      margin-right: -0.5em;
     }
   }
 }
 
 @include media-query($on-laptop) {
   h1.logo {
-    font-size: 4.9vw;
+    font-size: 6vw;
     a {
-      letter-spacing: 0.4em;
+      letter-spacing: 0.43em;
+      margin-left: 0.4em;
       sub {
-        letter-spacing: 2.05em;
-        margin-left: 1.4em;
+        letter-spacing: 2.1em;
+        margin-left: 0.75em;
       }
     }
   }

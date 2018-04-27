@@ -4,6 +4,13 @@
   position: sticky;
   top: 0;
   padding-top: 1em;
-  height: 8em;
+  height: 15vmax;
   background-color: white;
+  z-index: 1;
+  @include media-query($on-laptop) {
+    height: 36vmax;
+  }
+  @include media-query($on-palm) {
+    height: 30vmax;
+  }
 }

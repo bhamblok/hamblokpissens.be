@@ -1,14 +1,16 @@
-{% assign categories = "" | split:"," %}
-{% assign pages = site.pages | where:"layout", 'project' | where:"lang", page.lang %}
-{% for p in pages %}
-  {% for category in p.categories %}
-    {% assign categories = categories | push: category | uniq %}
-  {% endfor %}
-{% endfor %}
-<nav class="catergory-nav">
-  <ul>
-    {% for category in categories %}
-      <li><a href="#{{ category | slugify }}">{{ category }}</a></li>
+{% if page.ref == "projects" %}
+  {% assign categories = "" | split:"," %}
+  {% assign pages = site.pages | where:"layout", 'project' | where:"lang", page.lang %}
+  {% for p in pages %}
+    {% for category in p.categories %}
+      {% assign categories = categories | push: category | uniq %}
     {% endfor %}
-  </ul>        
-</nav>
+  {% endfor %}
+  <nav class="catergory-nav">
+    <ul>
+      {% for category in categories %}
+        <li><a href="#{{ category | slugify }}">{{ category }}</a></li>
+      {% endfor %}
+    </ul>        
+  </nav>
+{% endif %}
