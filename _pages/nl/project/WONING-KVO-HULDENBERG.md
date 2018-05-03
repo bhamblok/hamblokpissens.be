@@ -1,8 +1,8 @@
 ---
-title: WONING
+title: WONING KVO
 location: Huldenberg
 ref: WONING-KVO
-order: 380
+order: 650
 categories:
 - toon alles
 - renovatie

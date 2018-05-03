@@ -1,8 +1,8 @@
 ---
-title: WONING
+title: WONING PM
 location: Meise
 ref: WONING-PM
-order: 550
+order: 400
 categories:
 - toon alles
 - renovatie

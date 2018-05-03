@@ -25,6 +25,7 @@ $content-width:    1024px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+$on-desktop:       1200px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -48,5 +49,6 @@ $on-laptop:        800px;
   "slideshow",
   "header",
   "nav",
-  "home"
+  "home",
+  "footer"
 ;

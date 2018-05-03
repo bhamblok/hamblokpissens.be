@@ -1,8 +1,8 @@
 ---
-title: 4 appartementen
+title: 4 appartementen FVM
 location: Lebbeke
 ref: 4APPARTEMENTEN-FVM
-order: 100
+order: 25
 categories:
 - toon alles
 - renovatie

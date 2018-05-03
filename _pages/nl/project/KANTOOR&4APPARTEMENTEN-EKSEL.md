@@ -2,7 +2,7 @@
 title: KANTOOR & 4 APPARTEMENTEN
 location: Hechtel-Eksel
 ref: KANTOOR&4APPARTEMENTEN
-order: 150
+order: 600
 categories:
 - toon alles
 - nieuwbouw

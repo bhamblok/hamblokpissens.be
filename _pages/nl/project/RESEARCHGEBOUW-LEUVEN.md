@@ -2,7 +2,7 @@
 title: RESEARCHGEBOUW
 location: Leuven
 ref: LAB
-order: 650
+order: 900
 highlight: true
 categories:
 - toon alles

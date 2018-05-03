@@ -2,7 +2,7 @@
 title: WONING N & G
 location: Hechtel-Eksel
 ref: WONING-NEELTJE&GERT
-order: 700
+order: 50
 categories:
 - toon alles
 - nieuwbouw

@@ -1,8 +1,8 @@
 ---
-title: WONING
+title: WONING P&F
 location: Lebbeke
 ref: WONING-P&F
-order: 750
+order: 1100
 categories:
 - toon alles
 - renovatie

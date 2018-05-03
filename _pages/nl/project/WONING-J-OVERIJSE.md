@@ -2,7 +2,7 @@
 title: WONING J
 location: Overijse
 ref: WONING-JANINA
-order: 450
+order: 300
 categories:
 - toon alles
 - renovatie

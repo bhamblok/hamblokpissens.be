@@ -2,7 +2,7 @@
 title: WONING I & C
 location: Vilvoorde
 ref: WONING-ILKE&XTOF
-order: 350
+order: 950
 categories:
 - toon alles
 - renovatie

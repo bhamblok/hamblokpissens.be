@@ -1,8 +1,8 @@
 ---
-title: WONING
+title: WONING S&V
 location: Gentbrugge
 ref: WONING-S&V
-order: 600
+order: 850
 categories:
 - toon alles
 - renovatie

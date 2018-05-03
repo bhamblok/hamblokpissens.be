@@ -10,4 +10,5 @@
   {% assign pages=site.pages | where:"ref", page.ref %}{% for p in pages %}
   {% unless p.url == page.url %}<link rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url }}" />{% endunless %}{% endfor %}
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <script type="application/javascript" src="{{ "/js/hamblokpissens.js" | prepend: site.baseurl }}?v=2"></script>
 </head>

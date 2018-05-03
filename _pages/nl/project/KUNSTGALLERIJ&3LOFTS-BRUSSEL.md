@@ -2,7 +2,7 @@
 title: KUNSTGALLERIJ & 3 LOFTS
 location: Brussel
 ref: KUNSTGALLERIJ&3LOFTS
-order: 250
+order: 350
 categories:
 - toon alles
 - renovatie

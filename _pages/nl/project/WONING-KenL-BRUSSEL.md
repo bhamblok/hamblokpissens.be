@@ -2,7 +2,7 @@
 title: WONING K & L
 location: Brussel
 ref: WONING-KOEN&LIESBETH
-order: 400
+order: 150
 categories:
 - toon alles
 - renovatie

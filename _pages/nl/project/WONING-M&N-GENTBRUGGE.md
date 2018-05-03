@@ -1,8 +1,8 @@
 ---
-title: WONING
+title: WONING M&N
 location: Gentbrugge
 ref: WONING-M&N
-order: 350
+order: 550
 categories:
 - toon alles
 - renovatie

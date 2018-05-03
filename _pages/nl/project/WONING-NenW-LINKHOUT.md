@@ -2,7 +2,7 @@
 title: WONING N & W
 location: Linkhout
 ref: WONING-NELE&WIM
-order: 750
+order: 200
 categories:
 - toon alles
 - nieuwbouw

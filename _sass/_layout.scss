@@ -1,7 +1,7 @@
 .site-header {
   position: relative;
 }
-.page-content {
+.page-content, .site-footer {
   padding: 0 3vw;
 }
 
@@ -10,9 +10,37 @@ h1 {
   font-weight: 500;
   letter-spacing: 0.5em;
 }
+
+nav {
+  padding: 0 3vw;
+}
+
 @include media-query($on-laptop) {
   h1 {
     font-size: 4vw;
     letter-spacing: 0.43em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    .site-header, .page-content, .site-footer {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .page-content, .site-footer {
+      box-sizing: border-box;
+      padding: 0 2.248em;
+    }
+    .site-footer {
+      padding: 0 2.8em;
+    }
+    h1 {
+      font-size: 1.79em;
+      letter-spacing: 0.5em; 
+    }
+    nav {
+      padding: 0 2.248em;
+    }
   }
 }

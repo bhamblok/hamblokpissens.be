@@ -2,7 +2,7 @@
 title: WONING R & A
 location: Hechtel-Eksel
 ref: WONING-ROEL&ANNEKE
-order: 550
+order: 800
 categories:
 - toon alles
 - renovatie

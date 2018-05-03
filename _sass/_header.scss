@@ -4,13 +4,17 @@
   position: sticky;
   top: 0;
   padding-top: 1em;
-  height: 15vmax;
+  height: 15vw;
   background-color: white;
   z-index: 1;
   @include media-query($on-laptop) {
-    height: 36vmax;
+    height: 36vw;
   }
   @include media-query($on-palm) {
-    height: 30vmax;
+    height: 30vw;
+    padding-top: 2em;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 12em;
   }
 }
