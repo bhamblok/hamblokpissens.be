@@ -37,7 +37,7 @@ De natuurlijke lichtinval  en direct contact tussen leefruimtes en de natuur zij
 
 # VERGUNNINGSAANVRAAG
 
-![VERGUNNINGSAANVRAAG](/assets/what/stedenbouwkundige-vergunning-640.png "VERGUNNINGSAANVRAAG")
+![VERGUNNINGSAANVRAAG](/assets/what/stedenbouwkundige-vergunning-640.jpg "VERGUNNINGSAANVRAAG")
 
 een vergunning en we kunnen beginnen
 
@@ -47,7 +47,7 @@ Eénmaal het ontwerp volledig op punt staat, kunnen we vervolgens overgaan tot h
 
 # UITVOERINGSDOSSIER
 
-![VOORONTWERPEN](/assets/what/detail-website.png "VOORONTWERPEN")
+![VOORONTWERPEN](/assets/what/detail-website.jpg "VOORONTWERPEN")
 
 de details maken de architectuur
 
