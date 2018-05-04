@@ -9,6 +9,6 @@ categories:
 - groepswoningen
 
 ---
-# BODY-TITLE voor 4 WONINGEN-PAD
+# 4 WONINGEN PAD
 
-Dit is tekst voor op de pagina van 4 WONINGEN-PAD
+Dit is tekst voor op de pagina van 4 WONINGEN PAD

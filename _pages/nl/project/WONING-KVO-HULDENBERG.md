@@ -10,6 +10,6 @@ categories:
 - interieur en design
 
 ---
-# BODY-TITLE voor WONING-KVO
+# WONING KVO
 
-Dit is tekst voor op de pagina van WONING-KVO
+Dit is tekst voor op de pagina van WONING KVO

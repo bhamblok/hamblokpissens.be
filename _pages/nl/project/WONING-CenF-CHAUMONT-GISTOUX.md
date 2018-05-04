@@ -8,6 +8,6 @@ categories:
 - renovatie
 - gezinswoningen
 ---
-# BODY-TITLE voor WONING CEDRIC & FRANJA
+# WONING C & F
 
-Dit is tekst voor op de pagina van WONING CEDRIC & FRANJA
+Dit is tekst voor op de pagina van WONING C & F

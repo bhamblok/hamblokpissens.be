@@ -8,6 +8,6 @@ categories:
 - renovatie
 - gezinswoningen
 ---
-# BODY-TITLE voor WONING JANINA
+# WONING J
 
-Dit is tekst voor op de pagina van WONING JANINA
+Dit is tekst voor op de pagina van WONING J

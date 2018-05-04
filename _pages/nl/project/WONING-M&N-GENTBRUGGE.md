@@ -10,6 +10,6 @@ categories:
 - interieur en design
 
 ---
-# BODY-TITLE voor WONING-M&N
+# WONING M&N
 
-Dit is tekst voor op de pagina van WONING-M&N
+Dit is tekst voor op de pagina van WONING M&N

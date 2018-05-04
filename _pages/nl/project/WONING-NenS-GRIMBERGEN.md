@@ -9,6 +9,6 @@ categories:
 - gezinswoningen
 - interieur & design
 ---
-# BODY-TITLE voor WONING NIELS & STEPHANIE
+# WONING N & S
 
-Dit is tekst voor op de pagina van WONING NIELS & STEPHANIE
+Dit is tekst voor op de pagina van WONING N & S

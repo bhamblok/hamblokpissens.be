@@ -10,6 +10,6 @@ categories:
 
 
 ---
-# BODY-TITLE voor WONING-LL
+# WONING LL
 
-Dit is tekst voor op de pagina van WONING-LL
+Dit is tekst voor op de pagina van WONING LL

@@ -8,6 +8,6 @@ categories:
 - nieuwbouw
 - gezinswoningen
 ---
-# BODY-TITLE voor WONING NEELTJE & GERT
+# WONING N & G
 
-Dit is tekst voor op de pagina van WONING NEELTJE & GERT
+Dit is tekst voor op de pagina van WONING N & G

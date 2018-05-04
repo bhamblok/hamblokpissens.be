@@ -11,6 +11,6 @@ categories:
 
 
 ---
-# BODY-TITLE voor 4 APPARTEMENTEN-FVM
+# 4 APPARTEMENTEN FVM
 
-Dit is tekst voor op de pagina van 4 APPARTEMENTEN-FVM
+Dit is tekst voor op de pagina van 4 APPARTEMENTEN FVM

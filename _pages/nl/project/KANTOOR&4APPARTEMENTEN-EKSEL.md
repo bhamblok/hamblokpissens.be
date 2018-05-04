@@ -9,6 +9,6 @@ categories:
 - groepswoningen
 - utiliteit
 ---
-# BODY-TITLE voor KANTOOR & 4 APPARTEMENTEN
+# KANTOOR & 4 APPARTEMENTEN
 
 Dit is tekst voor op de pagina van KANTOOR & 4 APPARTEMENTEN

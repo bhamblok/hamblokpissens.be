@@ -8,6 +8,6 @@ categories:
 - renovatie
 - gezinswoningen
 ---
-# BODY-TITLE voor WONING ARMANDO
+# WONING A
 
-Dit is tekst voor op de pagina van WONING ARMANDO
+Dit is tekst voor op de pagina van WONING A

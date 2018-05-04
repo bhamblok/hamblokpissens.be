@@ -10,6 +10,6 @@ categories:
 - utiliteit
 - interieur & design
 ---
-# BODY-TITLE voor KUNSTGALLERIJ & 3 LOFTS
+# KUNSTGALLERIJ & 3 LOFTS
 
 Dit is tekst voor op de pagina van KUNSTGALLERIJ & 3 LOFTS

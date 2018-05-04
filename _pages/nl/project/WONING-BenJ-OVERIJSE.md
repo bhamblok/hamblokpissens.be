@@ -8,6 +8,6 @@ categories:
 - nieuwbouw
 - gezinswoningen
 ---
-# BODY-TITLE voor WONING BART & JO
+# WONING B & J
 
-Dit is tekst voor op de pagina van WONING BART & JO
+Dit is tekst voor op de pagina van WONING B & J

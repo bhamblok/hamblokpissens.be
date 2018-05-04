@@ -8,6 +8,6 @@ categories:
 - nieuwbouw
 - gezinswoningen
 ---
-# BODY-TITLE voor WONING NELE & WIM
+# WONING N & W
 
-Dit is tekst voor op de pagina van WONING NELE & WIM
+Dit is tekst voor op de pagina van WONING N & W

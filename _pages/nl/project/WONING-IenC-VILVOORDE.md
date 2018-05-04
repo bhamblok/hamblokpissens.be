@@ -9,6 +9,6 @@ categories:
 - gezinswoningen
 - interieur & design
 ---
-# BODY-TITLE voor WONING ILKE & XTOF
+# WONING I & C
 
-Dit is tekst voor op de pagina van WONING ILKE & XTOF
+Dit is tekst voor op de pagina van WONING I & C

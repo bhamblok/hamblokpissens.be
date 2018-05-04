@@ -9,6 +9,6 @@ categories:
 - gezinswoningen
 
 ---
-# BODY-TITLE voor WONING-PM
+# WONING PM
 
-Dit is tekst voor op de pagina van WONING-PM
+Dit is tekst voor op de pagina van WONING PM

@@ -10,6 +10,6 @@ categories:
 - interieur en design
 
 ---
-# BODY-TITLE voor WONING-S&V
+# WONING S&V
 
-Dit is tekst voor op de pagina van WONING-S&V
+Dit is tekst voor op de pagina van WONING S&V

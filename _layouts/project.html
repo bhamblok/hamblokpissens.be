@@ -7,7 +7,7 @@ layout: default
 {% assign image_files = site.static_files | where_exp: "item", "item.path contains pathref" %}
 <div class="images">
 {% for image in image_files %}
-  {% unless image.basename contains "conceptschets" or image.basename contains "main" %}
+  {% unless image.basename contains "concept" %}
   <img src="{{ image.path }}" alt="{{ page.title }} {{ image.basename }}" title="{{ page.title }} {{ image.basename }}" />
   {% endunless %}
 {% endfor %}

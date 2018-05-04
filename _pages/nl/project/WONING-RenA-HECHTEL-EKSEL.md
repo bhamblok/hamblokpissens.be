@@ -9,6 +9,6 @@ categories:
 - gezinswoningen
 - interieur & design
 ---
-# BODY-TITLE voor WONING ROEL & ANNEKE
+# WONING R & A
 
-Dit is tekst voor op de pagina van WONING ROEL & ANNEKE
+Dit is tekst voor op de pagina van WONING R & A

@@ -9,6 +9,6 @@ categories:
 - gezinswoningen
 - interieur & design
 ---
-# BODY-TITLE voor WONING-P&F
+# WONING P&F
 
-Dit is tekst voor op de pagina van WONING-P&F
+Dit is tekst voor op de pagina van WONING P&F

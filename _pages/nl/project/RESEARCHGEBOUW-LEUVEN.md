@@ -9,6 +9,6 @@ categories:
 - nieuwbouw
 - utiliteit
 ---
-# BODY-TITLE voor LAB
+# RESEARCHGEBOUW
 
-Dit is tekst voor op de pagina van LAB
+Dit is tekst voor op de pagina van RESEARCHGEBOUW

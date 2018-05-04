@@ -9,6 +9,6 @@ categories:
 - gezinswoningen
 - interieur & design
 ---
-# BODY-TITLE voor WONING KOEN & LIESBETH
+# WONING K & L
 
-Dit is tekst voor op de pagina van WONING KOEN & LIESBETH
+Dit is tekst voor op de pagina van WONING K & L

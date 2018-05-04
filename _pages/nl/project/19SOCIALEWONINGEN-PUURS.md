@@ -10,6 +10,6 @@ categories:
 
 
 ---
-# BODY-TITLE voor 19 SOCIALE WONINGEN
+# 19 SOCIALE WONINGEN
 
-Dit is tekst voor op de pagina van 3APPARTEMENTEN-CJ
+Dit is tekst voor op de pagina van 19 SOCIALE WONINGEN

@@ -9,6 +9,6 @@ categories:
 - gezinswoningen
 - interieur & design
 ---
-# BODY-TITLE voor WONING STEFAN & EVELYNE
+# WONING S & E
 
-Dit is tekst voor op de pagina van WONING STEFAN & EVELYNE
+Dit is tekst voor op de pagina van WONING S & E
