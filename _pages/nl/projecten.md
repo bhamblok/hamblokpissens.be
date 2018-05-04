@@ -1,6 +1,6 @@
 ---
 title: Projecten
 ref: projects
-order: 500
+order: 800
 ---
 {% include projects.html %}
