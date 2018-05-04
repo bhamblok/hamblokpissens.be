@@ -15,7 +15,7 @@ De eerste ontmoeting vindt  plaats op de projectlocatie zodat we meteen een goed
 
 # VOORONTWERPEN
 
-![VOORONTWERPEN](/assets/what/voorontwerpplanneke.png "VOORONTWERPEN")
+![VOORONTWERPEN](/assets/what/voorontwerpplanneke.jpg "VOORONTWERPEN")
 
 alles begint bij een idee
 
