@@ -6,7 +6,7 @@ order: 500
 
 # ANALYSE
 
-![ANALYSE](/assets/what/2018 architect Evelyne en Patricia HR WillemDeLeeuw-18.jpg "ANALYSE")
+![ANALYSE](/assets/what/2018-architect-Evelyne-en-Patricia-HR-WillemDeLeeuw-18.jpg "ANALYSE")
 
 we luisteren naar uw persoonlijk verhaal
 
@@ -15,7 +15,7 @@ De eerste ontmoeting vindt  plaats op de projectlocatie zodat we meteen een goed
 
 # VOORONTWERPEN
 
-![VOORONTWERPEN](/assets/what/detail website.png "VOORONTWERPEN")
+![VOORONTWERPEN](/assets/what/voorontwerpplanneke.png "VOORONTWERPEN")
 
 alles begint bij een idee
 
@@ -47,7 +47,7 @@ Eénmaal het ontwerp volledig op punt staat, kunnen we vervolgens overgaan tot h
 
 # UITVOERINGSDOSSIER
 
-![VOORONTWERPEN](/assets/what/detail website.png "VOORONTWERPEN")
+![VOORONTWERPEN](/assets/what/detail-website.png "VOORONTWERPEN")
 
 de details maken de architectuur
 
@@ -65,7 +65,7 @@ Eenmaal de werken gestart, zullen we de werf wekelijks opvolgen. Hierbij zullen 
 
 # INTERIEUR & STIJLADVIES
 
-![INTERIEUR & STIJLADVIES](/assets/what/1402-ilke&xtof-foto-05.png "INTERIEUR & STIJLADVIES")
+![INTERIEUR & STIJLADVIES](/assets/what/interieur-stijladvies.jpg "INTERIEUR & STIJLADVIES")
 
 the finishing touch
 
