@@ -1,4 +1,5 @@
 {% if page.ref == "projects" %}
+  {% assign i = 0 %}
   {% assign categories = "" | split:"," %}
   {% assign pages = site.pages | where:"layout", 'project' | where:"lang", page.lang %}
   {% for p in pages %}
@@ -9,7 +10,8 @@
   <nav class="category-nav">
     <ul>
       {% for category in categories %}
-        <li><a href="#{{ category | slugify }}">{{ category }}</a></li>
+        <li><a href="#{{ category | slugify }}"{% if i == 0 %} class="active"{% endif %}>{{ category }}</a></li>
+        {% assign i = i | plus: 1 %}
       {% endfor %}
     </ul>        
   </nav>
