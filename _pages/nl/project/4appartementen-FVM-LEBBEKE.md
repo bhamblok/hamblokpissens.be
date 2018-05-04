@@ -7,7 +7,7 @@ categories:
 - toon alles
 - renovatie
 - groepswoningen
-- interieur en design
+- interieur & design
 
 
 ---

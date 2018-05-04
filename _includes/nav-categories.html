@@ -10,7 +10,7 @@
   <nav class="category-nav">
     <ul>
       {% for category in categories %}
-        <li><a href="#{{ category | slugify }}"{% if i == 0 %} class="active"{% endif %}>{{ category }}</a></li>
+        <li class="{{ category | slugify }}"><a href="#{{ category | slugify }}"{% if i == 0 %} class="active"{% endif %}>{{ category }}</a></li>
         {% assign i = i | plus: 1 %}
       {% endfor %}
     </ul>        

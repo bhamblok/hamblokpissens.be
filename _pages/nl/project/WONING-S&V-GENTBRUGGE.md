@@ -7,7 +7,7 @@ categories:
 - toon alles
 - renovatie
 - gezinswoningen
-- interieur en design
+- interieur & design
 
 ---
 # WONING S&V

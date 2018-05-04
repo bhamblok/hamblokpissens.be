@@ -70,6 +70,16 @@ nav {
         padding: 0;
         margin: 0;
         flex-grow: 0;
+        
+        // toon alles - nieuwbouw - renovatie - gezinswoningen - groepswoningen - utiliteit - interieur & design
+        &.toon-alles { order: 1; }
+        &.nieuwbouw { order: 2; }
+        &.renovatie { order: 3; }
+        &.gezinswoningen { order: 4; }
+        &.groepswoningen { order: 5; }
+        &.utiliteit { order: 6; }
+        &.interieur-design { order: 7; }
+
         a {
           letter-spacing: 0.1em;
           &.active {
