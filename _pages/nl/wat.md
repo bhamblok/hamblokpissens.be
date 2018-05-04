@@ -47,7 +47,7 @@ Eénmaal het ontwerp volledig op punt staat, kunnen we vervolgens overgaan tot h
 
 # UITVOERINGSDOSSIER
 
-![VOORONTWERPEN](/assets/what/detail-website.jpg "VOORONTWERPEN")
+![UITVOERINGSDOSSIER](/assets/what/detail-website.jpg "UITVOERINGSDOSSIER")
 
 de details maken de architectuur
 
