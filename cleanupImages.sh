@@ -16,5 +16,5 @@ find "./assets" -type f -depth -name '*' | while read file ; do
       echo "rm $directory/$oldfilename"
     fi
   fi
-  done
+done
 exit 0

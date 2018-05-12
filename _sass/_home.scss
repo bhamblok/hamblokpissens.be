@@ -21,5 +21,11 @@
       overflow: hidden;
       top: 0;
     }
+    @media screen and (min-width: 1200px) {
+      font-size: 1em;
+      .slideshow {
+        font-size: 2.09em;
+      }
+    }
   }
 }
