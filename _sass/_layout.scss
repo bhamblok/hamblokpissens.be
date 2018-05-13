@@ -45,6 +45,14 @@ img {
       max-width: 1200px;
       margin: 0 auto;
     }
+    &.home {
+      .site-nav {
+        max-width: 1200px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 0 1.8em;
+      }
+    }
     .page-content, .site-footer {
       box-sizing: border-box;
       padding: 0 2.248em;

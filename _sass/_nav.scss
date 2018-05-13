@@ -6,7 +6,6 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: $background-color;
     text-align: left;
     padding: 0 2vw;
     .menu-icon {
@@ -26,22 +25,22 @@
     .trigger {
       clear: both;
       display: none;
+      a {
+        display: block;
+        padding: 5px;
+        border: none;
+        &:not(:last-child) { margin-right: 0; }
+      }  
     }
     &:hover {
       width: 100%;
       border-bottom: 1px solid $grey-color-dark;
+      background-color: $background-color;
       .trigger {
         display: block;
+        padding-top: 5px;
         padding-bottom: 5px;
       }
-    }
-    .page-link {
-      display: block;
-      padding: 5px $spacing-unit / 2;
-      border: none;
-
-      &:not(:last-child) { margin-right: 0; }
-      margin-left: 20px;
     }
   }
 }

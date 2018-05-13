@@ -1,4 +1,26 @@
 .home {
+  .site-nav {
+    z-index: 1;
+    position: relative;
+    font-size: 0.6em;
+    @include media-query($on-palm) {
+      position: absolute;
+      .menu-icon {
+        > svg {
+          path { fill: white;; }
+        }
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 1.25em;
+    }
+    a {
+      color: white;
+    }
+    a.active {
+      border: 1px solid white;
+    }
+  }
   .slideshow-content {
     font-size: 2.8vw;
     height: 100vh;
@@ -7,11 +29,14 @@
       font-size: 4.8vw;
     }
     h1.logo {
-      position: absolute;
-      position: -webkit-sticky;
-      position: sticky;
-      top: 4em;
-      margin-bottom: 4em;
+      // position: absolute;
+      // position: -webkit-sticky;
+      // position: sticky;
+      // top: 4em;
+      // margin-bottom: 4em;
+      position: relative;
+      top: 1em;
+      margin-bottom: 2em;
       a {
         color: white;
       }
