@@ -86,11 +86,14 @@ nav {
         a {
           letter-spacing: 0.1em;
           &.active {
-            padding: 0.3em 1em 0.3em 0;
+            padding: 0;
+            margin: 0.3em 1em 0.3em 0;
             border: none;
+            border-bottom: 1px dotted $grey-color;
             &:before {
-              content: 'V';
+              content: '\2713';
               padding: 0 0.3em 0 0;
+              border-bottom: 1px solid white;
             }          
           }
         }

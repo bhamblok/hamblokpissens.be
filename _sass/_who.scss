@@ -1,0 +1,68 @@
+.who {
+  .page-content {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    > * {
+      grid-column: 2;
+    }
+    p:first-child {
+      grid-row: 1 / 100;
+      grid-column: 1;
+    }
+    p:last-child {
+      grid-row: 1 / 100;
+      grid-column: 3;
+    }
+    h1 ~ h1,
+    h1 ~ h1 ~ p {
+      text-align: right;
+    }
+    @include media-query($on-desktop) {    
+      grid-template-columns: 1fr 1fr;
+      p:first-child {
+        grid-row: 1;
+        grid-column: 1;
+      }
+      p:last-child {
+        grid-row: 1;
+        grid-column: 2;
+      }
+      h1,
+      h1 ~ p {
+        grid-column: 1;
+      }
+      h1 ~ h1 {
+        grid-row: 2;
+      }
+      h1 ~ h1 + p {
+        grid-row: 3;
+      }
+      h1 ~ h1,
+      h1 ~ h1 ~ p {
+        grid-column: 2;
+        text-align: left;
+      }
+    }
+    @include media-query($on-palm) {
+      grid-template-columns: 1fr;
+      p:last-child {
+        grid-column: 1;
+        grid-row: 20;
+      }
+      h1 ~ h1 {
+        grid-row: 21;
+        grid-column: 1;
+        text-align: left;
+      }
+      h1 ~ h1 + p {
+        grid-row: 22;
+      }
+      h1 ~ h1 ~ p {
+        grid-column: 1;
+        text-align: left;
+      }
+    }
+  }
+}

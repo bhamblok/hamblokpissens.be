@@ -4,7 +4,7 @@
   // position: sticky;
   // top: 0;
   padding-top: 1em;
-  height: 15vw;
+  height: 14vw;
   background-color: white;
   z-index: 1;
   @include media-query($on-laptop) {
@@ -15,7 +15,7 @@
     padding-top: 2em;
   }
   @media screen and (min-width: 1200px) {
-    height: 10em;
+    height: 10.5em;
   }
 }
 .projects .site-header {
