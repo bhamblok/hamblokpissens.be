@@ -10,7 +10,7 @@ find "./assets" -type f -depth -name '*' | while read file ; do
   newfilename=$(echo "$oldfilename" | tr ' ' '-' | tr '&' '-' | tr '_' '-' | sed 's/_-_/-/g')
   newfilename="${newfilename//.png/.jpg}"
   if [ "$oldfilename" != ".DS_Store" ]; then
-    sips --resampleWidth 1128 -s format jpeg "$directory/$oldfilename" --out "$directory/$newfilename"
+    sips --resampleWidth 1200 -s format jpeg "$directory/$oldfilename" --out "$directory/$newfilename"
     if [ "$oldfilename" != "$newfilename" ]; then
       rm -f "$directory/$oldfilename"
       echo "rm $directory/$oldfilename"

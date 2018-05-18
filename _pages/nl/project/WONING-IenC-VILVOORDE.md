@@ -8,6 +8,7 @@ categories:
 - renovatie
 - gezinswoningen
 - interieur & design
+copyrights: Willem de Leeuw - https://www.willemdeleeuw.be/
 ---
 # WONING I & C
 

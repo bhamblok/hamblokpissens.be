@@ -1,22 +1,108 @@
 ---
 layout: default
 ---
-{% assign pathref = page.ref | append: '/' | prepend: '/' %}
-{% assign image_files = site.static_files | where_exp: "item", "item.path contains pathref" %}
-<div class="images">
-{% for image in image_files %}
-  {% unless image.basename contains "concept" %}
-    {% if image.basename contains "planneke" %}
-      {% assign plannekeLang = "planneke-" | append: page.lang %}
-      {% if image.basename contains plannekeLang %}
-      <img src="{{ image.path }}" alt="{{ page.title }} {{ image.basename }}" title="{{ page.title }} {{ image.basename }}" />
-      {% endif %}
-    {% else %}
-    <img src="{{ image.path }}" alt="{{ page.title }} {{ image.basename }}" title="{{ page.title }} {{ image.basename }}" />
-    {% endif %}
-  {% endunless %}
-{% endfor %}
-</div>
 <div class="project-content">
-  {{ content }}
+  <div class="project-slideshow">
+  {% assign pathref = page.ref | append: '/' | prepend: '/' %}
+  {% assign image_files = site.static_files | where_exp: "item", "item.path contains pathref" %}
+  {% assign items = 0 %}
+  {% if page.video %}{% assign items = items | plus: 1 %}{% endif %}
+  {% for image in image_files %}
+    {% unless image.basename contains "concept" %}
+      {% if image.basename contains "planneke" %}
+        {% assign plannekeLang = "planneke-" | append: page.lang %}
+        {% if image.basename contains plannekeLang %}
+        {% assign items = items | plus: 1 %}
+        {% endif %}
+      {% else %}
+      {% assign items = items | plus: 1 %}
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+  {% assign loopCount = items | minus: 1 %}
+
+  <style>
+    
+    {% for i in (0..loopCount) %}
+      #slideshow-button-{{ i }}:checked ~ .slideshow-item-wrapper.item-{{ i }} {
+        opacity: 1;
+      }
+      #slideshow-button-{{ i }}:checked ~ .slideshow-item-wrapper.item-{{ i }} .slideshow-item-color {
+        opacity: 0;
+        animation-name: slideshowEffect;
+      }
+      #slideshow-button-{{ i }}:checked ~ .slideshow-label.item-{{ i }},
+      #slideshow-button-{{ i }}:checked ~ .slideshow-label.item-{{ i }} ~ .slideshow-label {
+        left: -100%;
+      }
+      #slideshow-button-{{ i }}:checked ~ .slideshow-label.item-{{ i }} + .slideshow-label {
+        left: auto;
+        right: 0;
+      }
+      #slideshow-button-{{ i }}:checked ~ .slideshow-label.item-{{ i }} + .slideshow-label::after {
+        left: auto;
+        right: 0;
+        content: '\27E9';
+      }
+    {% endfor %}
+
+    </style>  
+
+  {% for i in (0..loopCount) %}
+    <input type="radio" name="project-slideshow-input" id="slideshow-button-{{ i }}" value="{{ i }}"{% if i == 0 %} checked="checked"{% endif %} />
+  {% endfor %}
+
+
+
+  {% assign pages = site.pages | where:"ref", 'projects' | where:"lang", page.lang %}
+  <a class="back" href="{{ pages[0].url }}" title="{{ pages[0].title }}">&times;</a>
+
+  {% assign i = 0 %}
+  {% for i in (0..loopCount) %}
+    <label class="slideshow-label item-{{ i }}" for="slideshow-button-{{ i }}"></label>
+  {% endfor %}
+
+    
+  {% assign i = 0 %}
+  {% if page.video %}
+    <div class="slideshow-item-wrapper item-{{ i }}">
+      {% assign i = i | plus: 1 %}
+      <div class="video-container">
+        <iframe width="100%" height="100%" src="{{ page.video }}?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  {% endif %}
+  {% for image in image_files %}
+    {% unless image.basename contains "concept" %}
+      {% if image.basename contains "planneke" %}
+        {% assign plannekeLang = "planneke-" | append: page.lang %}
+        {% if image.basename contains plannekeLang %}
+        <div class="slideshow-item-wrapper item-{{ i }}">
+          {% assign i = i | plus: 1 %}
+          <img src="{{ image.path }}" alt="{{ page.title }} {{ image.basename }}" title="{{ page.title }} {{ image.basename }}" />
+        </div>
+        {% endif %}
+      {% else %}
+      <div class="slideshow-item-wrapper item-{{ i }}">
+        {% assign i = i | plus: 1 %}
+        <img src="{{ image.path }}" alt="{{ page.title }} {{ image.basename }}" title="{{ page.title }} {{ image.basename }}" />
+      </div>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+      <div class="scroll-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 125" version="1.1" x="0px" y="0px">
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g fill="#ffffff">
+              <path d="M40,41.0074017 L40,41.0074017 L40,58.9925983 C40,64.5218355 44.4762336,69 50,69 C55.5234877,69 60,64.5203508 60,58.9925983 L60,41.0074017 C60,35.4781645 55.5237664,31 50,31 C44.4765123,31 40,35.4796492 40,41.0074017 L40,41.0074017 Z M38,41.0074017 C38,34.3758969 43.3711258,29 50,29 C56.627417,29 62,34.3726755 62,41.0074017 L62,58.9925983 C62,65.6241031 56.6288742,71 50,71 C43.372583,71 38,65.6273245 38,58.9925983 L38,41.0074017 L38,41.0074017 Z"/>
+              <path d="M49,36 L49,40 C49,40.5522847 49.4477153,41 50,41 C50.5522847,41 51,40.5522847 51,40 L51,36 C51,35.4477153 50.5522847,35 50,35 C49.4477153,35 49,35.4477153 49,36 L49,36 Z"/>
+              <path d="M50,81.9929939 L55.4998372,76.4931567 C55.8903615,76.1026324 56.5235265,76.1026324 56.9140508,76.4931567 C57.3045751,76.883681 57.3045751,77.516846 56.9140508,77.9073703 L50.7071068,84.1143143 C50.5118446,84.3095764 50.2559223,84.4072075 50,84.4072075 C49.7440777,84.4072075 49.4881554,84.3095764 49.2928932,84.1143143 L43.038379,77.8598002 C42.6478547,77.4692759 42.6478547,76.8361109 43.038379,76.4455866 C43.4289033,76.0550623 44.0620683,76.0550623 44.4525926,76.4455866 L50,81.9929939 Z"/>
+            </g>
+          </g>
+        </svg>
+      </div>
+  </div>
+  <div class="project-page-content">
+    {{ content }}
+  </div>
 </div>
