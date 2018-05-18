@@ -4,7 +4,10 @@ h1.logo {
   text-align: center;
   top: 2em;
   z-index: 99999;
+  overflow: hidden;
   a {
+    word-wrap: none;
+    word-break: keep-all;
     font-weight: 500;
     letter-spacing: 0.5em;
     text-decoration: none;

@@ -72,6 +72,15 @@
       h1 ~ h1 + p {
         grid-row: 22;
       }
+      h1 ~ h1 + p + p {
+        grid-row: 23;
+      }
+      h1 ~ h1 + p + p + p {
+        grid-row: 24;
+      }
+      h1 ~ h1 + p + p + p + p {
+        grid-row: 25;
+      }
       h1 ~ h1 ~ p {
         grid-column: 1;
         text-align: left;
