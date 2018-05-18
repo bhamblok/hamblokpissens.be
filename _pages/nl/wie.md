@@ -3,7 +3,7 @@ title: Wie
 ref: who
 order: 400
 ---
-![Evelyne Hamblok](/assets/who/2018-architect-Evelyne-en-Patricia-HR-WillemDeLeeuw-14.jpg "Evelyne Hamblok")
+![Evelyne Hamblok](/assets/who/2018-architect-evelyne-en-patricia-hr-willemdeleeuw-14.jpg "Evelyne Hamblok")
 
 # Evelyne Hamblok
 
@@ -21,4 +21,4 @@ order: 400
 2013 Patricia Pissens Architect  
 2018 **HAMBLOK-PISSENS** *architecten*  
 
-![Patricia Pissens](/assets/who/2018-architect-Evelyne-en-Patricia-HR-WillemDeLeeuw-7.jpg "Patricia Pissens")
+![Patricia Pissens](/assets/who/2018-architect-evelyne-en-patricia-hr-willemdeleeuw-7.jpg "Patricia Pissens")
