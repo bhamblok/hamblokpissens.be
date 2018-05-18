@@ -8,6 +8,7 @@ body.layout-project .page-content {
   z-index: 1;
   width: 100%;
   max-width: 1200px;
+  overflow: hidden;
   .project-slideshow {
     height: 100vh;
     display: flex;
