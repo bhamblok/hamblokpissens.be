@@ -28,7 +28,7 @@ $on-laptop:        800px;
 $on-desktop:       1200px;
 
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
+  @media screen and (max-width: $device), (max-height: 500px) {
     @content;
   }
 }
