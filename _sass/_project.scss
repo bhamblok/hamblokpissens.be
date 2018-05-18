@@ -61,6 +61,7 @@ body.layout-project .page-content {
         transform: translate(0, -50%);
         font-size: 4em;
         line-height: 1;
+        text-shadow: 1px 0px 0px white;
         color: $grey-color-dark;
       }
     }
@@ -70,6 +71,18 @@ body.layout-project .page-content {
     width: 100px;
     mix-blend-mode: difference;
     bottom: 0;
+  }
+  .copyrights {
+    opacity: 0.4;
+    position: absolute;
+    mix-blend-mode: difference;
+    color: white;
+    bottom: 1em;
+    right: 1em;
+    a {
+      mix-blend-mode: difference;
+      color: white;
+    }
   }
   .project-page-content {
     padding: 2em;

@@ -43,6 +43,7 @@ layout: default
         left: auto;
         right: 0;
         content: '\27E9';
+        text-shadow: -1px 0px 0px white;
       }
     {% endfor %}
 
@@ -101,6 +102,11 @@ layout: default
           </g>
         </svg>
       </div>
+      {% if page.copyrights %}
+      <div class="copyrights">
+        &copy; {{ page.copyrights }}
+      </div>
+      {% endif %}
   </div>
   <div class="project-page-content">
     {{ content }}
