@@ -1,6 +1,6 @@
 @keyframes slideshowEffect {
   0% { opacity: 0; }
-  10% { opacity: 1; }
+  30% { opacity: 1; }
   100% { opacity: 1; }
 }
 
@@ -39,9 +39,9 @@
         background-color: #f4f4f4;
         background-blend-mode: multiply;
         animation-fill-mode: forwards;
-        animation-delay: 6s;
+        animation-delay: 3s;
         animation-iteration-count: 1;
-        animation-duration: 6s;
+        animation-duration: 5s;
         animation-timing-function: linear;
         animation-direction: normal;
       }

@@ -15,6 +15,9 @@ find "./assets" -type f -depth -name '*' | while read file ; do
       rm -f "$directory/$oldfilename"
       echo "rm $directory/$oldfilename"
     fi
+    oldfilename="$newfilename"
+    newfilename=$(echo "$oldfilename" | tr '[:upper:]' '[:lower:]' | sed 's/_-_/-/g')
+    mv "$directory/$oldfilename" "$directory/$newfilename"
   fi
 done
 exit 0

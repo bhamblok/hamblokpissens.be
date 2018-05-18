@@ -1,4 +1,4 @@
-<div class="projects">
+<div class="projects-content">
 {% assign categories = "" | split:"," %}
 {% assign pages = site.pages | where:"layout", 'project' | where:"lang", page.lang | sort:"order" | reverse %}
 {% for p in pages %}

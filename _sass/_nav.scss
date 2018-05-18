@@ -61,6 +61,7 @@ nav {
     }
   }
   &.category-nav {
+    padding-top: 1.2em;
     ul {
       padding: 1vmax 0 0 0;
       margin: 0;
@@ -85,7 +86,12 @@ nav {
         a {
           letter-spacing: 0.1em;
           &.active {
-            padding: 0.3em 1em;
+            padding: 0.3em 1em 0.3em 0;
+            border: none;
+            &:before {
+              content: 'V';
+              padding: 0 0.3em 0 0;
+            }          
           }
         }
       }
