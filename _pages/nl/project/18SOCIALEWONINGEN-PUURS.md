@@ -3,6 +3,7 @@ title: 18 SOCIALE WONINGEN
 location: Puurs
 ref: 18WONINGEN-CHS
 order: 525
+highlight: true
 categories:
 - toon alles
 - nieuwbouw

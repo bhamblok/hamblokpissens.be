@@ -18,8 +18,12 @@ body {
   font-kerning: normal;
 }
 
+a {
+  color: $grey-color-dark;
+  line-height: $base-line-height;
+}
 .page-link {
-  color: $grey-color-light;
+  color: $grey-color-dark;
   line-height: $base-line-height;
   padding: 3px 7px;
   margin: 0;

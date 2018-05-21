@@ -12,6 +12,10 @@
         left: 0;
       }
     }
+    h1 {
+      font-size: 1.1em;
+      margin-bottom: 0;
+    }
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;

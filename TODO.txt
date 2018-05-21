@@ -5,7 +5,7 @@ CHECK -in de titelbalk: home - projecten - wie - wat - contact: allemaal kleine 
 
 PROJECTEN
 -de titel HAMBLOK-PISSENS architecten verspringt als je van de homepage naar de pagina projecten gaat, we denken dat de hoogte het midden tussen de 2 voor alle pagina's ideaal zou zijn...
--in het regeltje 'toon alles - nieuwbouw - renovatie - etc.' toch graag het kadertje laten terugkomen, onder het motto 'less is more', liefst dezelfde vormentaal. Je hebt wel een punt dat 'ge 't onderscheid moet kunnen zien, dus misschien eens proberen grijze kadertjes anders?
+CHECK in het regeltje 'toon alles - nieuwbouw - renovatie - etc.' toch graag het kadertje laten terugkomen, onder het motto 'less is more', liefst dezelfde vormentaal. Je hebt wel een punt dat 'ge 't onderscheid moet kunnen zien, dus misschien eens proberen grijze kadertjes anders?
 -in woning P& F: plakt de eerste foto tegen de bovenrand op Patricia haar computer... Pat, ik denk da Bob moet weten welk besturingssysteem da gij hebt om dit te kunnen oplossen!
 -de kruisjes en de pijltjes mogen iets fijner zijn van dikte en de pijltjes graag in onder 45° 
 -en dan nog ene belangrijke: het tekentje om naar beneden te scrollen moogt ge er voorlopig nog aflaten, omdat we gewoonweg nog geen teksten geschreven hebben 😬 we zullen u iets laten weten wanneer we da gedaan hebben, dan mag 't er terug op komen! 
@@ -20,9 +20,9 @@ WIE
 -op de gsm zijn onze foto's heel erg groot, kunt ge die nie wat kleiner maken? ;D
 
 CONTACT
--zelfde opmerking ivm het lettertype van onze namen
--ik heb de e-mail-adressen zelf al toegevoegd in het .md-bestandje
+CHECK zelfde opmerking ivm het lettertype van onze namen
+CHECK ik heb de e-mail-adressen zelf al toegevoegd in het .md-bestandje
 
-We hebben ondertussen ook nog heel wat veranderd aan de inhoud van de projecten een ook de foto's van de wat- en wie pagina zijn nog verandert! Dus da moet allemaal 'gerefreshed' worden!
+CHECK We hebben ondertussen ook nog heel wat veranderd aan de inhoud van de projecten een ook de foto's van de wat- en wie pagina zijn nog verandert! Dus da moet allemaal 'gerefreshed' worden!
 
 CHECK En nog één opmerking: op het kaartje staat nu 'Evelyne Hamblok'. Ik kan nochthans mezelf googelen op google maps en dan verschijnt er HAMBLOK-PISSENS architecten op ons adres. Ik vermoed dat er op dit moment 2 accounts op mijn adres staan en dat ge de link kunt veranderen naar Hamblok-pissens!
