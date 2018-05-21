@@ -1,5 +1,5 @@
 ---
-title: Projecten
+title: projecten
 ref: projects
 order: 800
 ---

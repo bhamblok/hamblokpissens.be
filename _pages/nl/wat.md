@@ -1,12 +1,14 @@
 ---
-title: Wat
+title: wat
 ref: what
 order: 500
 ---
 
-![ANALYSE](/assets/what/2018-architect-evelyne-en-patricia-hr-willemdeleeuw-18.jpg "ANALYSE")
+## op deze manier gaan wij te werk, samen met u ##
 
-# ANALYSE
+![ANALYSE](/assets/what/2018-architect-evelyne-en-patricia-hr-willemdeleeuw-17.jpg "ANALYSE")
+
+# STAP 1 : VERKENNEND GESPREK & ANALYSE
 
 ## we luisteren naar uw persoonlijk verhaal
 
@@ -15,7 +17,7 @@ De eerste ontmoeting vindt  plaats op de projectlocatie zodat we meteen een goed
 
 ![VOORONTWERPEN](/assets/what/voorontwerpplanneke.jpg "VOORONTWERPEN")
 
-# VOORONTWERPEN
+# STAP 2 : VOORONTWERPEN
 
 ## alles begint bij een idee
 
@@ -27,7 +29,7 @@ Het is vanzelfsprekend dat er opmerkingen of vragen ontstaan bij de eerste vooro
 
 ![3D-VISUALISATIE](/assets/what/1601-foto-04.jpg "3D-VISUALISATIE")
 
-# 3D-VISUALISATIE
+# STAP 3 : 3D-VISUALISATIE
 
 ## een klare kijk op de zaak
 
@@ -37,7 +39,7 @@ De natuurlijke lichtinval  en direct contact tussen leefruimtes en de natuur zij
 
 ![VERGUNNINGSAANVRAAG](/assets/what/stedenbouwkundige-vergunning-640.jpg "VERGUNNINGSAANVRAAG")
 
-# VERGUNNINGSAANVRAAG
+# STAP 4 : VERGUNNINGSAANVRAAG
 
 ## een vergunning en we kunnen beginnen
 
@@ -47,7 +49,7 @@ Eénmaal het ontwerp volledig op punt staat, kunnen we vervolgens overgaan tot h
 
 ![UITVOERINGSDOSSIER](/assets/what/detail-website.jpg "UITVOERINGSDOSSIER")
 
-# UITVOERINGSDOSSIER
+# STAP 5 : UITVOERINGSDOSSIER
 
 ## de details maken de architectuur
 
@@ -57,7 +59,7 @@ Dit alles wordt in een uitvoeringsdossier gebundeld, dat bestaat uit plannen en 
 
 ![WERFOPVOLGING](/assets/what/werf.JPG "WERFOPVOLGING")
 
-# WERFOPVOLGING
+# STAP 6 : WERFOPVOLGING
 
 ## we streven naar perfectie
 
@@ -65,7 +67,7 @@ Eenmaal de werken gestart, zullen we de werf wekelijks opvolgen. Hierbij zullen 
 
 ![INTERIEUR & STIJLADVIES](/assets/what/interieur-stijladvies.jpg "INTERIEUR & STIJLADVIES")
 
-# INTERIEUR & STIJLADVIES
+# STAP 7 : INTERIEUR & STIJLADVIES
 
 ## the finishing touch
 

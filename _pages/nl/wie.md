@@ -1,5 +1,5 @@
 ---
-title: Wie
+title: wie
 ref: who
 order: 400
 ---
@@ -21,4 +21,4 @@ order: 400
 2013 Patricia Pissens Architect  
 2018 **HAMBLOK-PISSENS** *architecten*  
 
-![Patricia Pissens](/assets/who/2018-architect-evelyne-en-patricia-hr-willemdeleeuw-7.jpg "Patricia Pissens")
+![Patricia Pissens](/assets/who/2018-architect-evelyne-en-patricia-hr-willemdeleeuw-6-kopie.jpg "Patricia Pissens")

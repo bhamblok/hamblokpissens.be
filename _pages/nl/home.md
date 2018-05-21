@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: home
 ref: home
 order: 900
 permalink: /

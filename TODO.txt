@@ -1,0 +1,28 @@
+HOMEPAGE:
+-de slideshow moet interactief zijn: pijltjes op de computer en swipe-mogelijkheid op tablet en gsm.
+CHECK -de tijd dat de foto zwart is mag nòg korter zijn! ;D
+CHECK -in de titelbalk: home - projecten - wie - wat - contact: allemaal kleine letters! ik ben dit zelf al gaan aanpassen!
+
+PROJECTEN
+-de titel HAMBLOK-PISSENS architecten verspringt als je van de homepage naar de pagina projecten gaat, we denken dat de hoogte het midden tussen de 2 voor alle pagina's ideaal zou zijn...
+-in het regeltje 'toon alles - nieuwbouw - renovatie - etc.' toch graag het kadertje laten terugkomen, onder het motto 'less is more', liefst dezelfde vormentaal. Je hebt wel een punt dat 'ge 't onderscheid moet kunnen zien, dus misschien eens proberen grijze kadertjes anders?
+-in woning P& F: plakt de eerste foto tegen de bovenrand op Patricia haar computer... Pat, ik denk da Bob moet weten welk besturingssysteem da gij hebt om dit te kunnen oplossen!
+-de kruisjes en de pijltjes mogen iets fijner zijn van dikte en de pijltjes graag in onder 45° 
+-en dan nog ene belangrijke: het tekentje om naar beneden te scrollen moogt ge er voorlopig nog aflaten, omdat we gewoonweg nog geen teksten geschreven hebben 😬 we zullen u iets laten weten wanneer we da gedaan hebben, dan mag 't er terug op komen! 
+
+WAT
+-nog aanpassen volgens laatste lay-out: op gsm is dit een moeilijke layout, misschien daar de foto's gewoon weglaten en enkel tekst tonen? Ik heb daarnet in het .md bestandje de titels al aangepast! Patricia kan jij de inhoud van de tekst nog eens nakijken en eventueel bijwerken waar nodig?
+Ik heb helemaal bovenaan een regeltje toegevoegd: ## op deze manier werken wij, samen met u ##  betekent die dubbele hashtag dat het in handschrift zal staan??? 
+-nog graag een donkere overlay over de foto's zoals bij de slideshow!
+
+WIE
+-kunt ge het lettertype van onze namen kleiner maken, zodat onze voor- en achternaam telkens op 1 regel tussen de foto's past? Misschien zelfde lettertype als 'architecten' uit de titel. Ofwel zelfde lettertype als onderstaande tekst maar in 't vet?
+-op de gsm zijn onze foto's heel erg groot, kunt ge die nie wat kleiner maken? ;D
+
+CONTACT
+-zelfde opmerking ivm het lettertype van onze namen
+-ik heb de e-mail-adressen zelf al toegevoegd in het .md-bestandje
+
+We hebben ondertussen ook nog heel wat veranderd aan de inhoud van de projecten een ook de foto's van de wat- en wie pagina zijn nog verandert! Dus da moet allemaal 'gerefreshed' worden!
+
+CHECK En nog één opmerking: op het kaartje staat nu 'Evelyne Hamblok'. Ik kan nochthans mezelf googelen op google maps en dan verschijnt er HAMBLOK-PISSENS architecten op ons adres. Ik vermoed dat er op dit moment 2 accounts op mijn adres staan en dat ge de link kunt veranderen naar Hamblok-pissens!

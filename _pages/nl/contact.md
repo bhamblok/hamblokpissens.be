@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: contact
 ref: contact
 order: 100
 ---
@@ -12,7 +12,7 @@ order: 100
 Evelyne Hamblok  
 Grimbergsesteenweg 49  
 1800 Vilvoorde  
-
+evelyne@hamblokpissens.be
 +32 475 62 10 64
 
 <div class="google-maps">
@@ -24,5 +24,5 @@ Grimbergsesteenweg 49
 Patricia Pissens  
 Opwijksestraat 16  
 9280 Lebbeke  
-
+patricia@hamblokpissens.be
 +32 485 92 61 15

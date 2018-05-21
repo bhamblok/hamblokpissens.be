@@ -1,5 +1,5 @@
 ---
-title: 4 appartementen FVM
+title: 4 APPARTEMENTEN FVM
 location: Lebbeke
 ref: 4APPARTEMENTEN-FVM
 order: 25

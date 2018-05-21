@@ -1,5 +1,5 @@
 ---
-title: WONING K & L
+title: LOFT K & L
 location: Brussel
 ref: WONING-KOEN&LIESBETH
 order: 150

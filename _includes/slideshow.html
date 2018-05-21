@@ -20,6 +20,7 @@
   {% assign i = 0 %}
   {% for image in image_files %}
     <input type="radio" name="slideshow" id="slideshow-button-{{ i }}" value="{{ i }}"{% if i == 0 %} checked="checked"{% endif %} />
+    <!-- <label class="slideshow-label item-{{ i }}" for="slideshow-button-{{ i }}"></label> -->
     {% assign i = i | plus: 1 %}
   {% endfor %}
 
