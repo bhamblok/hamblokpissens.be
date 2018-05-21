@@ -2,6 +2,7 @@
   {% assign image_files = site.static_files | where_exp: "item", "item.path contains '/slideshow/'" %}
   <style>
   
+  {% assign imgLength = image_files | size | minus: 1 %}
   {% assign i = 0 %}
   {% for image in image_files %}
     #slideshow-button-{{ i }}:checked ~ .slideshow-item-wrapper.item-{{ i }} {
@@ -12,6 +13,31 @@
       animation-name: slideshowEffect;
     }
     #slideshow-button-{{ i }}:checked ~ .nav-slideshow .slideshow-label.item-{{ i }} { --slideshow-color-bg: var(--slideshow-color-active, white); }
+    {% assign prev = i | minus: 1 %}{% if prev < 0 %}
+    #slideshow-button-{{ i }}:checked ~ .slideshow-prevnext-label.item-{{ imgLength }} {
+      left: 0;
+    }{% else %}
+    #slideshow-button-{{ i }}:checked ~ .slideshow-prevnext-label.item-{{ prev }} {
+      left: 0;
+    }{% endif %}{% if i == imgLength %}
+    #slideshow-button-{{ i }}:checked ~ .slideshow-prevnext-label.item-0 {
+      left: auto;
+      right: 0;
+    }
+    #slideshow-button-{{ i }}:checked ~ .slideshow-prevnext-label.item-0::after {
+      left: auto;
+      right: 0;
+      content: '\27E9';
+    }{% else %}
+    #slideshow-button-{{ i }}:checked ~ .slideshow-prevnext-label.item-{{ i }} + .slideshow-prevnext-label {
+      left: auto;
+      right: 0;
+    }
+    #slideshow-button-{{ i }}:checked ~ .slideshow-prevnext-label.item-{{ i }} + .slideshow-prevnext-label::after {
+      left: auto;
+      right: 0;
+      content: '\27E9';
+    }{% endif %}
     {% assign i = i | plus: 1 %}
   {% endfor %}
 
@@ -20,8 +46,12 @@
   {% assign i = 0 %}
   {% for image in image_files %}
     <input type="radio" name="slideshow" id="slideshow-button-{{ i }}" value="{{ i }}"{% if i == 0 %} checked="checked"{% endif %} />
-    <!-- <label class="slideshow-label item-{{ i }}" for="slideshow-button-{{ i }}"></label> -->
-    {% assign i = i | plus: 1 %}
+  {% assign i = i | plus: 1 %}
+  {% endfor %}
+  {% assign i = 0 %}
+  {% for image in image_files %}
+    <label class="slideshow-prevnext-label item-{{ i }}" for="slideshow-button-{{ i }}"></label>
+  {% assign i = i | plus: 1 %}
   {% endfor %}
 
   {% assign i = 0 %}

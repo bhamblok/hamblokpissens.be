@@ -8,11 +8,11 @@ PROJECTEN
 CHECK in het regeltje 'toon alles - nieuwbouw - renovatie - etc.' toch graag het kadertje laten terugkomen, onder het motto 'less is more', liefst dezelfde vormentaal. Je hebt wel een punt dat 'ge 't onderscheid moet kunnen zien, dus misschien eens proberen grijze kadertjes anders?
 -in woning P& F: plakt de eerste foto tegen de bovenrand op Patricia haar computer... Pat, ik denk da Bob moet weten welk besturingssysteem da gij hebt om dit te kunnen oplossen!
 -de kruisjes en de pijltjes mogen iets fijner zijn van dikte en de pijltjes graag in onder 45° 
--en dan nog ene belangrijke: het tekentje om naar beneden te scrollen moogt ge er voorlopig nog aflaten, omdat we gewoonweg nog geen teksten geschreven hebben 😬 we zullen u iets laten weten wanneer we da gedaan hebben, dan mag 't er terug op komen! 
+CHECK en dan nog ene belangrijke: het tekentje om naar beneden te scrollen moogt ge er voorlopig nog aflaten, omdat we gewoonweg nog geen teksten geschreven hebben 😬 we zullen u iets laten weten wanneer we da gedaan hebben, dan mag 't er terug op komen! 
 
 WAT
 -nog aanpassen volgens laatste lay-out: op gsm is dit een moeilijke layout, misschien daar de foto's gewoon weglaten en enkel tekst tonen? Ik heb daarnet in het .md bestandje de titels al aangepast! Patricia kan jij de inhoud van de tekst nog eens nakijken en eventueel bijwerken waar nodig?
-Ik heb helemaal bovenaan een regeltje toegevoegd: ## op deze manier werken wij, samen met u ##  betekent die dubbele hashtag dat het in handschrift zal staan??? 
+-Ik heb helemaal bovenaan een regeltje toegevoegd: ## op deze manier werken wij, samen met u ##  betekent die dubbele hashtag dat het in handschrift zal staan??? 
 -nog graag een donkere overlay over de foto's zoals bij de slideshow!
 
 WIE

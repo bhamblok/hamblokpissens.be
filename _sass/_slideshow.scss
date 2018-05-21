@@ -47,6 +47,27 @@
       }
     }
   }
+  .slideshow-prevnext-label {
+    position: absolute;
+    z-index: 2;
+    width: 40%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    left: -100%;
+    cursor: pointer;
+    &:after {
+      content: '\27E8';
+      padding: 0 0.3em;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+      font-size: 2em;
+      line-height: 1;
+      color: white;
+    }
+  }
   .nav-slideshow {
     position: absolute;
     z-index: 2;

@@ -31,9 +31,9 @@ layout: default
         opacity: 0;
         animation-name: slideshowEffect;
       }
-      #slideshow-button-{{ i }}:checked ~ .slideshow-label.item-{{ i }},
-      #slideshow-button-{{ i }}:checked ~ .slideshow-label.item-{{ i }} ~ .slideshow-label {
-        left: -100%;
+      {% assign prev = i | minus: 1 %}
+      #slideshow-button-{{ i }}:checked ~ .slideshow-label.item-{{ prev }} {
+        left: 0;
       }
       #slideshow-button-{{ i }}:checked ~ .slideshow-label.item-{{ i }} + .slideshow-label {
         left: auto;
@@ -43,7 +43,6 @@ layout: default
         left: auto;
         right: 0;
         content: '\27E9';
-        text-shadow: -1px 0px 0px white;
       }
     {% endfor %}
 

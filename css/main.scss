@@ -3,6 +3,13 @@
 ---
 @charset "utf-8";
 
+@font-face {
+  font-family: "customFont";
+  src: url("/css/fonts/ShimesOne_PERSONAL.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -45,6 +52,7 @@ $on-desktop:       1200px;
   "nav",
   "home",
   "who",
+  "what",
   "contact",
   "footer"
 ;
