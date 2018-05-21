@@ -1,5 +1,9 @@
 .who {
   .page-content {
+    h1 {
+      font-size: 1.1em;
+      margin-bottom: 0;
+    }
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
@@ -55,14 +59,26 @@
         grid-row: 21;
         grid-column: 1;
         text-align: left;
+        text-align: right;
       }
       h1 ~ h1 + p {
         grid-row: 22;
+        text-align: right;
       }
       h1 ~ h1 ~ p {
         grid-column: 1;
         text-align: left;
+        text-align: right;
       }
+    }
+    @include media-query($on-palm) {
+      img { width: 50%; }
+    }
+    @include media-query($on-laptop) {
+      img { width: 50%; }
+    }
+    @include media-query($on-desktop) {
+      img { width: 50%; }
     }
   }
 }
