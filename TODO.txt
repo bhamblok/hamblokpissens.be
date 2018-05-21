@@ -17,7 +17,7 @@ CHECK -Ik heb helemaal bovenaan een regeltje toegevoegd: ## op deze manier werke
 
 WIE
 CHECK -kunt ge het lettertype van onze namen kleiner maken, zodat onze voor- en achternaam telkens op 1 regel tussen de foto's past? Misschien zelfde lettertype als 'architecten' uit de titel. Ofwel zelfde lettertype als onderstaande tekst maar in 't vet?
--op de gsm zijn onze foto's heel erg groot, kunt ge die nie wat kleiner maken? ;D
+CHECK -op de gsm zijn onze foto's heel erg groot, kunt ge die nie wat kleiner maken? ;D
 
 CONTACT
 CHECK zelfde opmerking ivm het lettertype van onze namen
