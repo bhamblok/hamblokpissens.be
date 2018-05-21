@@ -8,3 +8,11 @@ body.what .page-content h3 {
 body.what .page-content h3 {
   font-size: 2.5em;
 }
+body.what {
+  @include media-query($on-palm) {
+    img { display: none; }
+  }
+  @include media-query($on-laptop) {
+    img { display: none; }
+  }
+}
