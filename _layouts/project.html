@@ -42,7 +42,8 @@ layout: default
       #slideshow-button-{{ i }}:checked ~ .slideshow-label.item-{{ i }} + .slideshow-label::after {
         left: auto;
         right: 0;
-        content: '\27E9';
+        /* content: '\27E9'; */
+        content: "\e901";
       }
     {% endfor %}
 
@@ -55,7 +56,7 @@ layout: default
 
 
   {% assign pages = site.pages | where:"ref", 'projects' | where:"lang", page.lang %}
-  <a class="back" href="{{ pages[0].url }}" title="{{ pages[0].title }}">&times;</a>
+  <a class="back" href="{{ pages[0].url }}" title="{{ pages[0].title }}"></a>
 
   {% assign i = 0 %}
   {% for i in (0..loopCount) %}

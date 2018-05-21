@@ -9,6 +9,17 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ws3bk9');
+  src:  url('fonts/icomoon.eot?ws3bk9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ws3bk9') format('truetype'),
+    url('fonts/icomoon.woff?ws3bk9') format('woff'),
+    url('fonts/icomoon.svg?ws3bk9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

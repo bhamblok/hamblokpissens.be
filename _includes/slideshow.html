@@ -27,7 +27,7 @@
     #slideshow-button-{{ i }}:checked ~ .slideshow-prevnext-label.item-0::after {
       left: auto;
       right: 0;
-      content: '\27E9';
+      content: "\e901";
     }{% else %}
     #slideshow-button-{{ i }}:checked ~ .slideshow-prevnext-label.item-{{ i }} + .slideshow-prevnext-label {
       left: auto;
@@ -36,7 +36,7 @@
     #slideshow-button-{{ i }}:checked ~ .slideshow-prevnext-label.item-{{ i }} + .slideshow-prevnext-label::after {
       left: auto;
       right: 0;
-      content: '\27E9';
+      content: "\e901";
     }{% endif %}
     {% assign i = i | plus: 1 %}
   {% endfor %}
