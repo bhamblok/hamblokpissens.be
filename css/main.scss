@@ -5,21 +5,25 @@
 
 @font-face {
   font-family: "customFont";
-  src: url("/css/fonts/ShimesOne_PERSONAL.woff2");
+  src: url('/css/fonts/ShimesOnePERSONALUSE.eot');
+  src: url('/css/fonts/ShimesOnePERSONALUSE.eot?#iefix') format('embedded-opentype'),
+      url('/css/fonts/ShimesOnePERSONALUSE.woff2') format('woff2'),
+      url('/css/fonts/ShimesOnePERSONALUSE.woff') format('woff'),
+      url('/css/fonts/ShimesOnePERSONALUSE.ttf') format('truetype'),
+      url('/css/fonts/ShimesOnePERSONALUSE.svg#ShimesOnePERSONALUSE') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ws3bk9');
-  src:  url('fonts/icomoon.eot?ws3bk9#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ws3bk9') format('truetype'),
-    url('fonts/icomoon.woff?ws3bk9') format('woff'),
-    url('fonts/icomoon.svg?ws3bk9#icomoon') format('svg');
+  src:  url('/css/fonts/icomoon.eot?ws3bk9');
+  src:  url('/css/fonts/icomoon.eot?ws3bk9#iefix') format('embedded-opentype'),
+    url('/css/fonts/icomoon.ttf?ws3bk9') format('truetype'),
+    url('/css/fonts/icomoon.woff?ws3bk9') format('woff'),
+    url('/css/fonts/icomoon.svg?ws3bk9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
