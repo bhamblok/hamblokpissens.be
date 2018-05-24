@@ -2,7 +2,7 @@
 title: WONING B & J
 location: Overijse
 ref: WONING-BART&JO
-order: 700
+order: 150
 categories:
 - toon alles
 - nieuwbouw

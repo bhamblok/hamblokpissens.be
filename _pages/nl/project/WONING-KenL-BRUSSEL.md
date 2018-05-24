@@ -2,7 +2,7 @@
 title: LOFT K & L
 location: Brussel
 ref: WONING-KOEN&LIESBETH
-order: 150
+order: 700
 categories:
 - toon alles
 - renovatie

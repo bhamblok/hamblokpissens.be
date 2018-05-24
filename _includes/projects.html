@@ -22,18 +22,18 @@
       {% assign slugifiedCategory = category | slugify %}
       {% assign categories = categories | push: slugifiedCategory | uniq %}
     {% endfor %}
-    {% assign pathref = p.ref | append: '/' | prepend: '/' %}
-    {% assign image_files = site.static_files | where_exp: "item", "item.path contains pathref" %}
-    {% assign i = 0 %}
-    {% for image in image_files %}
-      {% if image.basename contains "concept" %}
-        {% assign concept = image %}
-      {% elsif i == 0 %}
-        {% assign main = image %}
-        {% assign i = i | plus: 1 %}
-      {% endif %}
-    {% endfor %}
     <div class="project{% if p.highlight %} highlight{% endif %}" categories="{{ categories | join: ' ' }}">
+      {% assign pathref = p.ref | append: '/' | prepend: '/' %}
+      {% assign image_files = site.static_files | where_exp: "item", "item.path contains pathref" %}
+      {% assign i = 0 %}
+      {% for image in image_files %}
+        {% if image.basename contains "concept" %}
+          {% assign concept = image %}
+        {% elsif i == 0 %}
+        {% assign main = image %}
+          {% assign i = i | plus: 1 %}
+        {% endif %}
+      {% endfor %}
       <a href="{{ p.url }}" style="background-image: url({{ main.path }});">
         <span class="project-concept" style="background-image: url({{ concept.path }});">
           <span class="project-title">{{ p.title }}</span>

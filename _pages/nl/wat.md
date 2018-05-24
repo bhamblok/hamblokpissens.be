@@ -57,7 +57,7 @@ Vanaf het begin van het ontwerp worden externe partners nauw betrokken in het tr
 De kers op de taart komt er door de detaillering van het gebouw. Elke aansluiting van verschillende bouwonderdelen wordt nauwlettend gedetailleerd, waarbij er bijzondere aandacht besteed wordt aan de esthetiek en materiaalkeuze.
 Dit alles wordt in een uitvoeringsdossier gebundeld, dat bestaat uit plannen en uitvoeringsdetails op grote schaal, een gedetailleerde meetstaat en beschrijving van de materialen. Op basis van dit dossier kunnen de aannemers een correcte offerte opmaken die vergelijkbaar is met offertes van andere aannemers. Wij vergelijken voor u de verschillende offertes  in een overzichtelijke tabel en kiezen vervolgens samen met u de juiste aannemer voor de uitvoering van uw project.
 
-![WERFOPVOLGING](/assets/what/werf.JPG "WERFOPVOLGING")
+![WERFOPVOLGING](/assets/what/werf.jpg "WERFOPVOLGING")
 
 ## STAP 6 : WERFOPVOLGING
 

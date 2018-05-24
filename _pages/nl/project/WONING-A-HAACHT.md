@@ -2,7 +2,7 @@
 title: WONING A
 location: Haacht
 ref: WONING-ARMANDO
-order: 500
+order: 260
 categories:
 - toon alles
 - renovatie
