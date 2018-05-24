@@ -2,4 +2,13 @@
   h1.logo {
     font-size: 2.52em;
   }
-}  
+}
+
+h1.logo {
+  font-size: 2.52em;
+}
+
+.project-content .project-slideshow label:after,
+.project-content .project-slideshow .back {
+  color: black;
+}
