@@ -15,6 +15,15 @@
 {% for category in categories %}
 <span id="{{category}}" style="display: none;"></span>
 {% endfor %}
+
+<div class="project{% if p.highlight %} highlight{% endif %}" categories="toon-alles renovatie">
+  <a href="https://www.devlaamserenovatiedag.be/project2018/84/" target="_blank" style="background-image: url(/logo-vrd.png); background-size: 80%;">
+    <span class="project-concept">
+      <span class="project-title">De Vlaamse Renovatiedag</span>
+    </span>
+  </a>
+</div>
+
 {% for p in pages %}
   {% unless p.path contains "ONHOLD" %}
     {% assign categories = "" | split:"," %}
