@@ -1,14 +1,11 @@
-@media screen and (min-width: 1200px) {
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+
   h1.logo {
     font-size: 2.52em;
   }
-}
+  .project-content .project-slideshow label:after,
+  .project-content .project-slideshow .back {
+    color: black;
+  }
 
-h1.logo {
-  font-size: 2.52em;
-}
-
-.project-content .project-slideshow label:after,
-.project-content .project-slideshow .back {
-  color: black;
 }
