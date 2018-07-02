@@ -4,7 +4,7 @@ ref: what
 order: 500
 ---
 
-# op deze manier gaan wij te werk, samen met u ##
+# op deze manier werken wij,    samen met u !##
 
 ![ANALYSE](/assets/what/2018-architect-evelyne-en-patricia-hr-willemdeleeuw-17.jpg "ANALYSE")
 

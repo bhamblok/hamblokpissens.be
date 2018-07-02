@@ -3,6 +3,7 @@ title: 10 SOCIALE WONINGEN
 location: Huldenberg
 ref: 10SOCIALEWONINGEN-SAR
 order: 1150
+highlight: true
 categories:
 - toon alles
 - nieuwbouw
