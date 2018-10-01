@@ -2,7 +2,7 @@
 title: woning HDK
 location: Lebbeke
 ref: WONING-HDK
-order: 75
+order: 1140
 categories:
 - toon alles
 - nieuwbouw
