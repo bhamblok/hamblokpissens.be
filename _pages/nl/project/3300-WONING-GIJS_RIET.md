@@ -8,9 +8,6 @@ categories:
 - interieur & design
 - gezinswoningen
 - renovatie
-
-
-
 ---
 # woning G&R
 

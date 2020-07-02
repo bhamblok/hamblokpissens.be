@@ -7,8 +7,6 @@ categories:
 - toon alles
 - renovatie
 - gezinswoningen
-
-
 ---
 # BODY-TITLE voor WONING-A&L
 

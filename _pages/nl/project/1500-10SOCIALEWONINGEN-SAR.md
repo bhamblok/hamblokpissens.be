@@ -8,8 +8,6 @@ categories:
 - toon alles
 - nieuwbouw
 - groepswoningen
-
-
 ---
 # 10 SOCIALE WONINGEN
 

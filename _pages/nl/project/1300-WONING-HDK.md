@@ -7,9 +7,6 @@ categories:
 - toon alles
 - nieuwbouw
 - gezinswoningen
-
-
-
 ---
 # woning HDK
 
