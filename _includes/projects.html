@@ -1,6 +1,6 @@
 <div class="projects-content">
 {% assign categories = "" | split:"," %}
-{% assign pages = site.pages | where:"layout", 'project' | where:"lang", page.lang | sort:"order" | reverse %}
+{% assign pages = site.pages | where:"layout", 'project' | where:"lang", page.lang | sort:"order" %}
 {% for p in pages %}
   {% for category in p.categories %}
     {% assign slugifiedCategory = category | slugify %}
