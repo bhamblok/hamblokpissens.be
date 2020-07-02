@@ -1,7 +1,7 @@
 ---
 title: WONING N & S
 location: Grimbergen
-ref: 2000-WONING-NIELS&STEPHANIE
+ref: 2000-WONING-NIELS_STEPHANIE
 order: 2000
 categories:
 - toon alles
