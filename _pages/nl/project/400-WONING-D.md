@@ -6,5 +6,5 @@ order: 400
 categories:
 - toon alles
 - nieuwbouw
-- gezinswoning
+- gezinswoningen
 ---

@@ -6,5 +6,5 @@ order: 1000
 categories:
 - toon alles
 - renovatie
-- gezinswoning
+- gezinswoningen
 ---
