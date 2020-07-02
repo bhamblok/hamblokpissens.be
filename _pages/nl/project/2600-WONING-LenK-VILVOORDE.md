@@ -1,7 +1,7 @@
 ---
 title: WONING L & K
 location: Vilvoorde
-ref: 2600-WONING-LUC&KRISTEL
+ref: 2600-WONING-LUC_KRISTEL
 order: 2600
 categories:
 - toon alles
