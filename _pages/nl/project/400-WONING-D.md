@@ -7,4 +7,5 @@ categories:
 - toon alles
 - nieuwbouw
 - gezinswoningen
+- interieur & design
 ---

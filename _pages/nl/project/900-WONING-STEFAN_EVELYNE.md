@@ -1,8 +1,8 @@
 ---
 title: WONING S & E
 location: Vilvoorde
-ref: 2500-WONING-STEFAN_EVELYNE
-order: 2500
+ref: 900-WONING-STEFAN_EVELYNE
+order: 900
 categories:
 - toon alles
 - renovatie

@@ -1,7 +1,7 @@
 ---
 title: KUNSTGALLERIJ & 3 LOFTS
 location: Brussel
-ref: 700-KUNSTGALLERIJ_3LOFTS
+ref: 700-KUNSTGALLERIJ&3LOFTS
 order: 700
 categories:
 - toon alles

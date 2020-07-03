@@ -1,8 +1,8 @@
 ---
 title: WONING LL
 location: Opwijk
-ref: 900-WONING-LL
-order: 900
+ref: 2500-WONING-LL
+order: 2500
 categories:
 - toon alles
 - renovatie
