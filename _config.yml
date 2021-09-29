@@ -30,6 +30,8 @@ url: "https://www.hamblokpissens.be" # the base hostname & protocol for your sit
 # Build settings
 markdown: kramdown
 
+version: 3.8.6
+
 collections:
   pages:
     output: true
