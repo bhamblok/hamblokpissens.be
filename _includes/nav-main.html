@@ -7,7 +7,7 @@
     </svg>
   </a>
   <div class="trigger">
-    {% assign pages = site.pages | where:"lang", page.lang | where_exp: "p", "p.layout != 'project'" | sort:"order" | reverse %}
+    {% assign pages = site.pages | where:"lang", page.lang | where_exp: "p", "p.layout != 'project'" | where_exp: "p", "p.layout != 'publication'" | sort:"order" | reverse %}
     {% for p in pages %}
       <a class="{% if p.title == page.title %}active{% endif %}" href="{{ p.url }}">{{ p.title }}</a>
     {% endfor %}
