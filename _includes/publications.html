@@ -1,53 +1,24 @@
 <div class="projects-content">
 {% assign pages = site.pages | where:"layout", 'publication' | where:"lang", page.lang | sort:"order" %}
-{% for p in pages %}
-  {% for category in p.categories %}
-    {% assign slugifiedCategory = category | slugify %}
-    {% assign categories = categories | push: slugifiedCategory | uniq %}
-  {% endfor %}
-{% endfor %}
-<style>
-{% for category in categories %}
-  #{{ category }}:target ~ :not([categories~="{{ category }}"]) { display: none; }
-{% endfor %}
-</style>
-{% for category in categories %}
-<span id="{{category}}" style="display: none;"></span>
-{% endfor %}
-
-<!-- <div class="project{% if p.highlight %} highlight{% endif %}" categories="toon-alles renovatie gezinswoningen interieur-design">
-  <a href="/nl/project/WONING-NenS-GRIMBERGEN" target="_blank" style="background-image: url(/assets/renovatiedag.jpg); background-size: 80%;">
-    <span class="project-concept">
-      <span class="project-title">Renovatiedag</span>
-    </span>
-  </a>
-</div> -->
 
 {% for p in pages %}
-  {% unless p.path contains "ONHOLD" %}
-    {% assign categories = "" | split:"," %}
-    {% for category in p.categories %}
-      {% assign slugifiedCategory = category | slugify %}
-      {% assign categories = categories | push: slugifiedCategory | uniq %}
+  <div class="project">
+    {% assign pathref = p.ref | append: '/' | prepend: '/' %}
+    {% assign image_files = site.static_files | where_exp: "item", "item.path contains pathref" %}
+    {% assign i = 0 %}
+    {% for image in image_files %}
+      {% if image.basename contains "titel" %}
+        {% assign concept = image %}
+      {% elsif i == 0 %}
+      {% assign main = image %}
+        {% assign i = i | plus: 1 %}
+      {% endif %}
     {% endfor %}
-    <div class="project{% if p.highlight %} highlight{% endif %}" categories="{{ categories | join: ' ' }}">
-      {% assign pathref = p.ref | append: '/' | prepend: '/' %}
-      {% assign image_files = site.static_files | where_exp: "item", "item.path contains pathref" %}
-      {% assign i = 0 %}
-      {% for image in image_files %}
-        {% if image.basename contains "concept" %}
-          {% assign concept = image %}
-        {% elsif i == 0 %}
-        {% assign main = image %}
-          {% assign i = i | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-      <a href="{{ p.url }}" style="background-image: url({{ main.path }});">
-        <span class="project-concept" style="background-image: url({{ concept.path }});">
-          <span class="project-title">{{ p.title }}</span>
-        </span>
-      </a>
-    </div>
-  {% endunless %}
+    <a href="{{ p.url }}" style="background-image: url({{ concept.path }});">
+      <span class="project-concept" style="background-image: url({{ concept.zzzpath }});">
+        <span class="project-title">{{ p.title }}</span>
+      </span>
+    </a>
+  </div>
 {% endfor %}
 </div>

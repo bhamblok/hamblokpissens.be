@@ -55,7 +55,7 @@ layout: default
 
 
 
-  {% assign pages = site.pages | where:"ref", 'projects' | where:"lang", page.lang %}
+  {% assign pages = site.pages | where:"ref", 'publications' | where:"lang", page.lang %}
   <a class="back" href="{{ pages[0].url }}" title="{{ pages[0].title }}"></a>
 
   {% assign i = 0 %}
