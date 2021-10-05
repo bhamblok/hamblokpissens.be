@@ -8,6 +8,7 @@ categories:
 - nieuwbouw
 - gezinswoningen
 - interieur & design
+video: https://www.youtube.com/embed/c_bISzAk-UM
 ---
 # WONING DDMD
 
