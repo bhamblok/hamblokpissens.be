@@ -43,7 +43,7 @@
           {% assign i = i | plus: 1 %}
         {% endif %}
       {% endfor %}
-      <a href="{{ p.url }}" style="background-image: url({{ main.path }});">
+      <a href="{{ p.url }}" title="{{p.location}}" style="background-image: url({{ main.path }});">
         <span class="project-concept" style="background-image: url({{ concept.path }});">
           <span class="project-title">{{ p.title }}</span>
         </span>
