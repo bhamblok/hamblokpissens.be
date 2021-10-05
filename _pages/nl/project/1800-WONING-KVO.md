@@ -1,6 +1,6 @@
 ---
 title: WONING KVO
-location: Huldenberg
+location: architect Huldenberg
 ref: 1800-WONING-KVO
 order: 1800
 categories:
@@ -11,4 +11,4 @@ categories:
 ---
 # WONING KVO
 
-Dit is tekst voor op de pagina van WONING KVO
+moderne architectuur, renovatie rijwoning, houten ramen, modern design, energiezuinige woningen, architect Machelen, architect Lebbeke, architect Gent, architect Hoeilaart, architect Overijse, architect Huldenberg, architect Grimbergen, architect Meise, architect Zemst, architect Dendermonde, architect Aalst, architect Gent

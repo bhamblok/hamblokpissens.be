@@ -1,6 +1,6 @@
 ---
 title: WONING L&T
-location: Lochristi
+location: architect Lochristi
 ref: 2100-WONING-L_T
 order: 2100
 categories:
@@ -9,3 +9,6 @@ categories:
 - gezinswoningen
 - interieur & design
 ---
+# WONING L&T
+
+moderne architectuur, renovatie rijwoning, modern design, energiezuinige woningen, houten gevelbekleding, architect Lochristi, architect Kapelle-op-den-Bos, architect Machelen, architect Lebbeke, architect Gent, architect Hoeilaart, architect Overijse, architect Huldenberg, architect Grimbergen, architect Meise, architect Zemst, architect Dendermonde, architect Aalst, architect Gent

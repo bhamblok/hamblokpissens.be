@@ -1,6 +1,6 @@
 ---
 title: woning HDK
-location: Lebbeke
+location: architect Lebbeke
 ref: 1300-WONING-HDK
 order: 1300
 categories:
@@ -10,4 +10,4 @@ categories:
 ---
 # woning HDK
 
-Dit is tekst voor op de pagina van woning HDK
+moderne architectuur, lichte gevelsteen, houten ramen, modern design, energiezuinige woningen, architect Machelen, architect Lebbeke, architect Gent, architect Hoeilaart, architect Overijse, architect Grimbergen, architect Meise, architect Zemst, architect Dendermonde, architect Aalst, architect Gent

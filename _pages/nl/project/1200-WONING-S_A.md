@@ -1,6 +1,6 @@
 ---
 title: WONING S & A
-location: Machelen
+location: architect Machelen
 ref: 1200-WONING-S_A
 order: 1200
 categories:
@@ -10,4 +10,4 @@ categories:
 ---
 # WONING S & A
 
-Dit is tekst voor op de pagina van WONING S & A
+moderne architectuur, lichte gevelsteen, modern design, energiezuinige woningen, architect Machelen, architect Lebbeke, architect Gent, architect Hoeilaart, architect Overijse, architect Grimbergen, architect Meise, architect Zemst, architect Dendermonde, architect Aalst, architect Gent

@@ -1,6 +1,6 @@
 ---
 title: WONING SNIJ
-location: Lebbeke
+location: architect Lebbeke
 ref: 100-WONING-SNIJ
 order: 100
 categories:
@@ -8,3 +8,7 @@ categories:
 - nieuwbouw
 - gezinswoningen
 ---
+# WONING SNIJ
+
+patiowoning, moderne architectuur, minimalistische architectuur,
+energiezuinige woning, nieuwbouw woning, woning witte baksteen, 

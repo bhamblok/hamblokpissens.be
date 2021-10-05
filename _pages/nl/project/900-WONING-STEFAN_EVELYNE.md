@@ -1,6 +1,6 @@
 ---
 title: WONING S & E
-location: Vilvoorde
+location: architect Vilvoorde
 ref: 900-WONING-STEFAN_EVELYNE
 order: 900
 categories:
@@ -11,4 +11,4 @@ categories:
 ---
 # WONING S & E
 
-Dit is tekst voor op de pagina van WONING S & E
+moderne architectuur, grijze gevelsteen, modern design, energiezuinige woningen, architect Lebbeke, architect Gent, architect Hoeilaart, architect Overijse, architect Grimbergen, architect Meise, architect Zemst, architect Dendermonde, architect Aalst, architect Gent

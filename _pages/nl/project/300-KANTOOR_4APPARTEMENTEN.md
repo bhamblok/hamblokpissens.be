@@ -1,6 +1,6 @@
 ---
 title: KANTOOR & 4 APPARTEMENTEN
-location: Hechtel-Eksel
+location: architect Hechtel-Eksel
 ref: 300-KANTOOR_4APPARTEMENTEN
 order: 300
 categories:
@@ -11,4 +11,4 @@ categories:
 ---
 # KANTOOR & 4 APPARTEMENTEN
 
-Dit is tekst voor op de pagina van KANTOOR & 4 APPARTEMENTEN
+architect Hechtel-Eksel, architect Limburg, interior-design, witte baksteen, modern design, minimalistisch design, moderne architectuur, zwart hout, betonlook tegels

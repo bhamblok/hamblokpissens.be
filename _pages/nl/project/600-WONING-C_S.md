@@ -1,6 +1,6 @@
 ---
 title: woning C&S
-location: Hoeilaart
+location: architect Hoeilaart
 ref: 600-WONING-C_S
 order: 600
 categories:
@@ -10,4 +10,4 @@ categories:
 ---
 # woning C&S
 
-Dit is tekst voor op de pagina van woning HDK
+moderne architectuur, grijze gevelsteen, geostylistix profile MBI, modern design, architect Lebbeke, architect Gent, architect Hoeilaart, architect Overijse, architect Grimbergen, architect Meise, architect Zemst, architect Dendermonde, architect Aalst, architect Gent
