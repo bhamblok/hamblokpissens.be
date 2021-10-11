@@ -8,7 +8,7 @@ categories:
 - nieuwbouw
 - gezinswoningen
 - groepswoningen
-video: https://www.youtube.com/watch?v=NNK8CR1uxxY
+video: https://www.youtube.com/embed/NNK8CR1uxxY
 ---
 # TWEEWOONST DAAL
 
