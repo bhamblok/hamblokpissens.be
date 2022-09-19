@@ -1,10 +1,28 @@
 ---
-title: wat
-ref: what
-order: 500
+title: HAMBLOK - PISSENS | Architect Lebbeke & Grimbergen
+description: Bent u op zoek naar een architect in Lebbeke of Grimbergen? HAMBLOK - PISSENS
+ref: architect-lebbeke-grimbergen
+permalink: /architect-lebbeke-grimbergen
+order: 0
 ---
 
-# op deze manier werken wij, samen met u !
+## HAMBLOK - PISSENS - Architect Lebbeke &amp; Grimbergen
+
+Bent u op zoek naar een Architect in Lebbeke of Grimbergen? Wij helpen u graag verder. Volledig
+naar wens of op basis van eigen inzicht realiseren wij het droomontwerp voor uw woning of kantoor.
+Dit doen wij altijd inclusief een voorontwerp en 3D-Visualisatie. Zo bent u er zeker van dat het
+uiteindelijke ontwerp volledig naar uw wens is.
+## Over HAMBLOK - PISSENS
+
+HAMBLOK - PISSENS architecten heeft geruime ervaring met verschillende soorten projecten. Zo
+hebben we de afgelopen jaren tal van woningen mogen ontwerpen, van nieuwbouw tot renovatie.
+Ook utiliteitsprojecten kunnen wij voor u uitvoeren. Tijdens de architectuur in Lebbeke, Grimbergen
+en omstreken houden we altijd rekening met de wensen van onze klanten. Wij realiseren ontwerpen
+die chic, authentiek en eigentijds zijn.
+
+## Onze werkwijze als architect in Lebbeke &amp; Grimbergen
+
+### op deze manier werken wij, samen met u !
 
 <div class="what-content">
   <div class="what-slideshow">
@@ -155,4 +173,34 @@ order: 500
       </div>
     </div>
   </div>
+</div>
+
+
+## Contact
+
+<div class="contact">
+
+  <div class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80477.24021576249!2d4.344538235899612!3d50.92531235174565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c39afc936fb9%3A0x3a822c2eaf82d593!2sHAMBLOK+PISSENS+architecten!5e0!3m2!1sen!2sbe!4v1526906789712" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+  <h3>Evelyne Hamblok</h3>
+
+  <p>Evelyne Hamblok<br> 
+  Grimbergsesteenweg 49 <br> 
+  1800 Vilvoorde  <br>
+  <a href="mailto:evelyne@hamblokpissens.be">evelyne@hamblokpissens.be</a>  <br>
+  +32 475 62 10 64</p>
+
+  <div class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2510.6903669976573!2d4.1303612161012255!3d51.00339365524834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c396a01c7d1181%3A0xa4f65c20e2d6e6ea!2sPissens+%2F+P.!5e0!3m2!1sen!2sbe!4v1526628006055" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+  <h3>Patricia Pissens</h3>
+
+  <p>Patricia Pissens  <br>
+  Opwijksestraat 16  <br>
+  9280 Lebbeke  <br>
+  <a href="mailto:patricia@hamblokpissens.be">patricia@hamblokpissens.be</a>  <br>
+  +32 485 92 61 15</p>
 </div>
