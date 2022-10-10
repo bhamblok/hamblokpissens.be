@@ -1,26 +1,43 @@
 ---
-title: HAMBLOK - PISSENS | Architect Lebbeke & Grimbergen
-description: Bent u op zoek naar een architect in Lebbeke of Grimbergen? HAMBLOK - PISSENS
+title: HAMBLOK - PISSENS | Architect Lebbeke & Vilvoorde
+description: Bent u op zoek naar een architect in Lebbeke of Vilvoorde? HAMBLOK - PISSENS architecten realiseert het droomontwerp voor nieuwbouwproject of verbouwing en renovatie.
 ref: architect-lebbeke-grimbergen
 permalink: /architect-lebbeke-grimbergen
 order: 0
 ---
 
-## HAMBLOK - PISSENS - Architect Lebbeke &amp; Grimbergen
+## HAMBLOK - PISSENS - Architect Lebbeke &amp; Vilvoorde
 
-Bent u op zoek naar een Architect in Lebbeke of Grimbergen? Wij helpen u graag verder. Volledig
-naar wens of op basis van eigen inzicht realiseren wij het droomontwerp voor uw woning of kantoor.
-Dit doen wij altijd inclusief een voorontwerp en 3D-Visualisatie. Zo bent u er zeker van dat het
-uiteindelijke ontwerp volledig naar uw wens is.
+Bent u op zoek naar een Architect in Lebbeke of Vilvoorde? Wij helpen u graag verder. Volledig naar
+wens of op basis van eigen inzicht realiseren wij het droomontwerp voor onder andere uw woning of
+utiliteitsproject. Dit doen wij altijd inclusief een voorontwerp en 3D-Visualisatie. Zo bent u er zeker
+van dat het uiteindelijke ontwerp volledig naar uw wens is.
+
 ## Over HAMBLOK - PISSENS
 
-HAMBLOK - PISSENS architecten heeft geruime ervaring met verschillende soorten projecten. Zo
-hebben we de afgelopen jaren tal van woningen mogen ontwerpen, van nieuwbouw tot renovatie.
-Ook utiliteitsprojecten kunnen wij voor u uitvoeren. Tijdens de architectuur in Lebbeke, Grimbergen
-en omstreken houden we altijd rekening met de wensen van onze klanten. Wij realiseren ontwerpen
-die chic, authentiek en eigentijds zijn.
+HAMBLOK-PISSENS architecten is een architectenbureau met meer dan 20 jaar ervaring, gevestigd te
+Vilvoorde en Lebbeke en actief in de ruime regio van heel Vlaanderen. We begeleiden zowel
+particulieren, ontwikkelaars en overheden bij het realiseren van een nieuwbouwproject of
+verbouwing en renovatie.  
 
-## Onze werkwijze als architect in Lebbeke &amp; Grimbergen
+We zetten in op een sterk doordachte architectuur, altijd verrassend innovatief, duurzaam en van
+hoogstaande kwaliteit. Onze ambitie is om een architectuur te ontwikkelen waarin ruimte, licht,
+materiaalgebruik, huiselijkheid en bouwkundige detaillering de focus vormen.  
+
+De laatste jaren gaat onze aandacht meer en meer naar circulair en bio-ecologisch bouwen. De
+huidige energie- en klimaatcrisis daagt ons uit om hier de volle 100% op in te zetten. Deze nieuwe
+dimensie biedt een extra meerwaarde bovenop onze esthetisch uitgepuurde manier van ontwerpen
+en bouwen.  
+
+Als architect in Lebbeke en Vilvoorde bieden wij u een totaalpakket aan diensten en een persoonlijke
+begeleiding van de eerste schets tot en met de afwerkingen.  
+
+Doorheen het bouwproces mag u rekenen op een betrouwbare samenwerking met vaste
+bouwpartners om de vlotte vooruitgang van jouw project te realiseren.
+
+<!-- ## Onze realisaties -->
+
+## Onze werkwijze als architect in Lebbeke &amp; Vilvoorde
 
 ### op deze manier werken wij, samen met u !
 

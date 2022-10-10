@@ -42,7 +42,7 @@ body.architect-lebbeke-grimbergen {
         position: relative;
         input[type=radio] {
           position: absolute;
-          top: -9999px;
+          // top: -9999px;
           left: -9999px;
         }
         .slideshow-item-wrapper {
@@ -95,7 +95,7 @@ body.architect-lebbeke-grimbergen {
           position: absolute;
           z-index: 2;
           width: 40%;
-          height: 60vh;
+          height: 560px;
           top: 0;
           left: 0;
           left: -100%;
