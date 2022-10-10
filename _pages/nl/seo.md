@@ -1,8 +1,8 @@
 ---
 title: HAMBLOK - PISSENS | Architect Lebbeke & Vilvoorde
 description: Bent u op zoek naar een architect in Lebbeke of Vilvoorde? HAMBLOK - PISSENS architecten realiseert het droomontwerp voor nieuwbouwproject of verbouwing en renovatie.
-ref: architect-lebbeke-grimbergen
-permalink: /architect-lebbeke-grimbergen
+ref: architect-lebbeke-vilvoorde
+permalink: /architect-lebbeke-vilvoorde
 order: 0
 ---
 
