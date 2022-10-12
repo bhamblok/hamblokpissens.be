@@ -37,7 +37,7 @@ bouwpartners om de vlotte vooruitgang van jouw project te realiseren.
 
 <!-- ## Onze realisaties -->
 
-## Onze werkwijze als architect in o.a. Lebbeke &amp; Vilvoorde
+## Onze werkwijze als architect in o.a. Vilvoorde &amp; Lebbeke
 
 ### op deze manier werken wij, samen met u !
 
