@@ -35,7 +35,10 @@ begeleiding van de eerste schets tot en met de afwerkingen.
 Doorheen het bouwproces mag u rekenen op een betrouwbare samenwerking met vaste
 bouwpartners om de vlotte vooruitgang van jouw project te realiseren.
 
-<!-- ## Onze realisaties -->
+## Onze realisaties
+<div class="slideshow-content">
+  {% include slideshow.html %}
+</div>
 
 ## Onze werkwijze als architect in o.a. Vilvoorde &amp; Lebbeke
 
@@ -44,56 +47,56 @@ bouwpartners om de vlotte vooruitgang van jouw project te realiseren.
 <div class="what-content">
   <div class="what-slideshow">
     <style>
-      #slideshow-button-0:checked ~ .slideshow-item-wrapper.item-0 { opacity: 1; }
-      #slideshow-button-0:checked ~ .slideshow-item-wrapper.item-0 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
-      #slideshow-button-0:checked ~ .slideshow-label.item--1 { left: 0; }
-      #slideshow-button-0:checked ~ .slideshow-label.item-0 + .slideshow-label { left: auto; right: 0; }
-      #slideshow-button-0:checked ~ .slideshow-label.item-0 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
-      #slideshow-button-1:checked ~ .slideshow-item-wrapper.item-1 { opacity: 1; }
-      #slideshow-button-1:checked ~ .slideshow-item-wrapper.item-1 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
-      #slideshow-button-1:checked ~ .slideshow-label.item-0 { left: 0; }
-      #slideshow-button-1:checked ~ .slideshow-label.item-1 + .slideshow-label { left: auto; right: 0; }
-      #slideshow-button-1:checked ~ .slideshow-label.item-1 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
-      #slideshow-button-2:checked ~ .slideshow-item-wrapper.item-2 { opacity: 1; }
-      #slideshow-button-2:checked ~ .slideshow-item-wrapper.item-2 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
-      #slideshow-button-2:checked ~ .slideshow-label.item-1 { left: 0; }
-      #slideshow-button-2:checked ~ .slideshow-label.item-2 + .slideshow-label { left: auto; right: 0; }
-      #slideshow-button-2:checked ~ .slideshow-label.item-2 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
-      #slideshow-button-3:checked ~ .slideshow-item-wrapper.item-3 { opacity: 1; }
-      #slideshow-button-3:checked ~ .slideshow-item-wrapper.item-3 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
-      #slideshow-button-3:checked ~ .slideshow-label.item-2 { left: 0; }
-      #slideshow-button-3:checked ~ .slideshow-label.item-3 + .slideshow-label { left: auto; right: 0; }
-      #slideshow-button-3:checked ~ .slideshow-label.item-3 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
-      #slideshow-button-4:checked ~ .slideshow-item-wrapper.item-4 { opacity: 1; }
-      #slideshow-button-4:checked ~ .slideshow-item-wrapper.item-4 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
-      #slideshow-button-4:checked ~ .slideshow-label.item-3 { left: 0; }
-      #slideshow-button-4:checked ~ .slideshow-label.item-4 + .slideshow-label { left: auto; right: 0; }
-      #slideshow-button-4:checked ~ .slideshow-label.item-4 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
-      #slideshow-button-5:checked ~ .slideshow-item-wrapper.item-5 { opacity: 1; }
-      #slideshow-button-5:checked ~ .slideshow-item-wrapper.item-5 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
-      #slideshow-button-5:checked ~ .slideshow-label.item-4 { left: 0; }
-      #slideshow-button-5:checked ~ .slideshow-label.item-5 + .slideshow-label { left: auto; right: 0; }
-      #slideshow-button-5:checked ~ .slideshow-label.item-5 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
-      #slideshow-button-6:checked ~ .slideshow-item-wrapper.item-6 { opacity: 1; }
-      #slideshow-button-6:checked ~ .slideshow-item-wrapper.item-6 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
-      #slideshow-button-6:checked ~ .slideshow-label.item-5 { left: 0; }
-      #slideshow-button-6:checked ~ .slideshow-label.item-6 + .slideshow-label { left: auto; right: 0; }
-      #slideshow-button-6:checked ~ .slideshow-label.item-6 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
+      #what-slideshow-button-0:checked ~ .slideshow-item-wrapper.item-0 { opacity: 1; }
+      #what-slideshow-button-0:checked ~ .slideshow-item-wrapper.item-0 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
+      #what-slideshow-button-0:checked ~ .slideshow-label.item--1 { left: 0; }
+      #what-slideshow-button-0:checked ~ .slideshow-label.item-0 + .slideshow-label { left: auto; right: 0; }
+      #what-slideshow-button-0:checked ~ .slideshow-label.item-0 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
+      #what-slideshow-button-1:checked ~ .slideshow-item-wrapper.item-1 { opacity: 1; }
+      #what-slideshow-button-1:checked ~ .slideshow-item-wrapper.item-1 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
+      #what-slideshow-button-1:checked ~ .slideshow-label.item-0 { left: 0; }
+      #what-slideshow-button-1:checked ~ .slideshow-label.item-1 + .slideshow-label { left: auto; right: 0; }
+      #what-slideshow-button-1:checked ~ .slideshow-label.item-1 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
+      #what-slideshow-button-2:checked ~ .slideshow-item-wrapper.item-2 { opacity: 1; }
+      #what-slideshow-button-2:checked ~ .slideshow-item-wrapper.item-2 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
+      #what-slideshow-button-2:checked ~ .slideshow-label.item-1 { left: 0; }
+      #what-slideshow-button-2:checked ~ .slideshow-label.item-2 + .slideshow-label { left: auto; right: 0; }
+      #what-slideshow-button-2:checked ~ .slideshow-label.item-2 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
+      #what-slideshow-button-3:checked ~ .slideshow-item-wrapper.item-3 { opacity: 1; }
+      #what-slideshow-button-3:checked ~ .slideshow-item-wrapper.item-3 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
+      #what-slideshow-button-3:checked ~ .slideshow-label.item-2 { left: 0; }
+      #what-slideshow-button-3:checked ~ .slideshow-label.item-3 + .slideshow-label { left: auto; right: 0; }
+      #what-slideshow-button-3:checked ~ .slideshow-label.item-3 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
+      #what-slideshow-button-4:checked ~ .slideshow-item-wrapper.item-4 { opacity: 1; }
+      #what-slideshow-button-4:checked ~ .slideshow-item-wrapper.item-4 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
+      #what-slideshow-button-4:checked ~ .slideshow-label.item-3 { left: 0; }
+      #what-slideshow-button-4:checked ~ .slideshow-label.item-4 + .slideshow-label { left: auto; right: 0; }
+      #what-slideshow-button-4:checked ~ .slideshow-label.item-4 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
+      #what-slideshow-button-5:checked ~ .slideshow-item-wrapper.item-5 { opacity: 1; }
+      #what-slideshow-button-5:checked ~ .slideshow-item-wrapper.item-5 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
+      #what-slideshow-button-5:checked ~ .slideshow-label.item-4 { left: 0; }
+      #what-slideshow-button-5:checked ~ .slideshow-label.item-5 + .slideshow-label { left: auto; right: 0; }
+      #what-slideshow-button-5:checked ~ .slideshow-label.item-5 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
+      #what-slideshow-button-6:checked ~ .slideshow-item-wrapper.item-6 { opacity: 1; }
+      #what-slideshow-button-6:checked ~ .slideshow-item-wrapper.item-6 .slideshow-item-color { opacity: 0; animation-name: slideshowEffect; }
+      #what-slideshow-button-6:checked ~ .slideshow-label.item-5 { left: 0; }
+      #what-slideshow-button-6:checked ~ .slideshow-label.item-6 + .slideshow-label { left: auto; right: 0; }
+      #what-slideshow-button-6:checked ~ .slideshow-label.item-6 + .slideshow-label::after { left: auto; right: 0; content: "\e901"; }
     </style>
-    <input type="radio" name="what-slideshow-input" id="slideshow-button-0" value="0" checked="checked">
-    <input type="radio" name="what-slideshow-input" id="slideshow-button-1" value="1">
-    <input type="radio" name="what-slideshow-input" id="slideshow-button-2" value="2">
-    <input type="radio" name="what-slideshow-input" id="slideshow-button-3" value="3">
-    <input type="radio" name="what-slideshow-input" id="slideshow-button-4" value="4">
-    <input type="radio" name="what-slideshow-input" id="slideshow-button-5" value="5">
-    <input type="radio" name="what-slideshow-input" id="slideshow-button-6" value="6">
-    <label class="slideshow-label item-0" for="slideshow-button-0"></label>
-    <label class="slideshow-label item-1" for="slideshow-button-1"></label>
-    <label class="slideshow-label item-2" for="slideshow-button-2"></label>
-    <label class="slideshow-label item-3" for="slideshow-button-3"></label>
-    <label class="slideshow-label item-4" for="slideshow-button-4"></label>
-    <label class="slideshow-label item-5" for="slideshow-button-5"></label>
-    <label class="slideshow-label item-6" for="slideshow-button-6"></label>
+    <input type="radio" name="what-slideshow-input" id="what-slideshow-button-0" value="0" checked="checked">
+    <input type="radio" name="what-slideshow-input" id="what-slideshow-button-1" value="1">
+    <input type="radio" name="what-slideshow-input" id="what-slideshow-button-2" value="2">
+    <input type="radio" name="what-slideshow-input" id="what-slideshow-button-3" value="3">
+    <input type="radio" name="what-slideshow-input" id="what-slideshow-button-4" value="4">
+    <input type="radio" name="what-slideshow-input" id="what-slideshow-button-5" value="5">
+    <input type="radio" name="what-slideshow-input" id="what-slideshow-button-6" value="6">
+    <label class="slideshow-label item-0" for="what-slideshow-button-0"></label>
+    <label class="slideshow-label item-1" for="what-slideshow-button-1"></label>
+    <label class="slideshow-label item-2" for="what-slideshow-button-2"></label>
+    <label class="slideshow-label item-3" for="what-slideshow-button-3"></label>
+    <label class="slideshow-label item-4" for="what-slideshow-button-4"></label>
+    <label class="slideshow-label item-5" for="what-slideshow-button-5"></label>
+    <label class="slideshow-label item-6" for="what-slideshow-button-6"></label>
     <div class="item slideshow-item-wrapper item-0">
       <div class="img"><img title="VERKENNDED GESPREK EN ANALYSE" src="/assets/what/2018-architect-evelyne-en-patricia-hr-willemdeleeuw-17.jpg"></div>
       <div class="text">

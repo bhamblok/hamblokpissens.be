@@ -1,4 +1,4 @@
-.home {
+.home, .architect-lebbeke-vilvoorde {
   .site-nav {
   //   z-index: 3;
   //   position: relative;
@@ -70,6 +70,24 @@
       font-size: 1em;
       .slideshow {
         font-size: 2.09em;
+      }
+    }
+  }
+}
+
+.architect-lebbeke-vilvoorde {
+  .slideshow-content {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    .slideshow {
+      height: 600px;    
+      width: 100%;
+      .slideshow-prevnext-label {
+        height: 600px;
+      }
+      .slideshow-item-wrapper .slideshow-item {
+        background-attachment: inherit;
       }
     }
   }
