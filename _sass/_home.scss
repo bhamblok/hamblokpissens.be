@@ -1,4 +1,4 @@
-.home, .architect-lebbeke-vilvoorde {
+.home {
   .site-nav {
   //   z-index: 3;
   //   position: relative;
@@ -78,9 +78,15 @@
 .architect-lebbeke-vilvoorde {
   .slideshow-content {
     position: relative;
-    height: 700px;
+    height: 100vh;
+    overflow: hidden;
     width: 100%;
     .slideshow {
+      // font-size: 2.09em;
+      font-size: 2.8vw;
+      @include media-query($on-laptop) {
+        font-size: 4.8vw;
+      }
       height: 600px;    
       width: 100%;
       .slideshow-prevnext-label {
@@ -88,6 +94,24 @@
       }
       .slideshow-item-wrapper .slideshow-item {
         background-attachment: inherit;
+      }
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+    }
+    .site-header {
+      background-color: transparent;
+      z-index: 3;
+      h1.logo {
+        a {
+          color: white;
+        }
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 1em;
+      .slideshow {
+        font-size: 2.09em;
       }
     }
   }
