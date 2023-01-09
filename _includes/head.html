@@ -8,7 +8,6 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?v=4">
   <link rel="stylesheet" href="{{ "/css/ie.css" | prepend: site.baseurl }}?v=4">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% assign pages=site.pages | where:"ref", page.ref %}{% for p in pages %}
   {% unless p.url == page.url %}<link rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url }}" />{% endunless %}{% endfor %}
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
