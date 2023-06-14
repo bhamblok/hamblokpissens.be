@@ -8,7 +8,6 @@ categories:
 - renovatie
 - gezinswoningen
 - interieur & design
-video: https://www.youtube.com/embed/Cv_fBoSAQM0
 ---
 # WONING J&E
 
