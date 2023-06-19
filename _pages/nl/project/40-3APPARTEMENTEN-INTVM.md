@@ -1,15 +1,14 @@
 ---
-title: WONING J&E
-location: architect Hechtel-Eksel
-ref: 40-WONING-J_E
+title: 3APPARTEMENTEN-INTVM
+location: architect Lebbeke
+ref: 40-3APPARTEMENTEN-INTVM
 order: 40
 categories:
 - toon alles
-- renovatie
-- gezinswoningen
-- interieur & design
+- nieuwbouw
+- groepswoningen
 ---
-# WONING J&E
+# 3APPARTEMENTEN-INTVM
 
-renovatie rijwoning, kitchen design, modern, minimalistisch design, moderne architectuur
+nieuwbouw appartementen, ruime appartementen, moderne architectuur, 
 architect Wemmel, architect Leuven, architect Lochristi, architect Kapelle-op-den-Bos, architect Machelen, architect Lebbeke, architect Gent, architect Hoeilaart, architect Overijse, architect Huldenberg, architect Grimbergen, architect Meise, architect Zemst, architect Dendermonde, architect Aalst, architect Gent, architect Hechtel-Eksel, architect Vilvoorde
